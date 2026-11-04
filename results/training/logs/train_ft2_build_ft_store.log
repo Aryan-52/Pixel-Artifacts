@@ -1,0 +1,111 @@
+train: 1440060 rows, resuming at 0
+[00:02:06] train spatial rows 16384/1440060 |    697 img/s | ETA  0.57 h
+[00:02:24] train spatial rows 32768/1440060 |    794 img/s | ETA  0.49 h
+[00:02:48] train spatial rows 49152/1440060 |    747 img/s | ETA  0.52 h
+[00:03:10] train spatial rows 65536/1440060 |    751 img/s | ETA  0.51 h
+[00:03:33] train spatial rows 81920/1440060 |    743 img/s | ETA  0.51 h
+[00:03:55] train spatial rows 98304/1440060 |    740 img/s | ETA  0.50 h
+[00:04:16] train spatial rows 114688/1440060 |    746 img/s | ETA  0.49 h
+[00:04:41] train spatial rows 131072/1440060 |    734 img/s | ETA  0.50 h
+[00:05:01] train spatial rows 147456/1440060 |    744 img/s | ETA  0.48 h
+[00:05:24] train spatial rows 163840/1440060 |    740 img/s | ETA  0.48 h
+[00:05:44] train spatial rows 180224/1440060 |    746 img/s | ETA  0.47 h
+[00:06:07] train spatial rows 196608/1440060 |    743 img/s | ETA  0.47 h
+[00:06:29] train spatial rows 212992/1440060 |    743 img/s | ETA  0.46 h
+[00:06:51] train spatial rows 229376/1440060 |    743 img/s | ETA  0.45 h
+[00:07:15] train spatial rows 245760/1440060 |    739 img/s | ETA  0.45 h
+[00:07:35] train spatial rows 262144/1440060 |    744 img/s | ETA  0.44 h
+[00:08:01] train spatial rows 278528/1440060 |    737 img/s | ETA  0.44 h
+[00:08:20] train spatial rows 294912/1440060 |    741 img/s | ETA  0.43 h
+[00:08:43] train spatial rows 311296/1440060 |    740 img/s | ETA  0.42 h
+[00:09:05] train spatial rows 327680/1440060 |    741 img/s | ETA  0.42 h
+[00:09:27] train spatial rows 344064/1440060 |    741 img/s | ETA  0.41 h
+[00:09:51] train spatial rows 360448/1440060 |    738 img/s | ETA  0.41 h
+[00:10:12] train spatial rows 376832/1440060 |    739 img/s | ETA  0.40 h
+[00:10:32] train spatial rows 393216/1440060 |    742 img/s | ETA  0.39 h
+[00:10:54] train spatial rows 409600/1440060 |    743 img/s | ETA  0.39 h
+[00:11:14] train spatial rows 425984/1440060 |    745 img/s | ETA  0.38 h
+[00:11:37] train spatial rows 442368/1440060 |    744 img/s | ETA  0.37 h
+[00:11:57] train spatial rows 458752/1440060 |    747 img/s | ETA  0.37 h
+[00:12:18] train spatial rows 475136/1440060 |    747 img/s | ETA  0.36 h
+[00:12:39] train spatial rows 491520/1440060 |    749 img/s | ETA  0.35 h
+[00:12:58] train spatial rows 507904/1440060 |    752 img/s | ETA  0.34 h
+[00:13:20] train spatial rows 524288/1440060 |    752 img/s | ETA  0.34 h
+[00:13:40] train spatial rows 540672/1440060 |    754 img/s | ETA  0.33 h
+[00:14:01] train spatial rows 557056/1440060 |    754 img/s | ETA  0.33 h
+[00:14:21] train spatial rows 573440/1440060 |    756 img/s | ETA  0.32 h
+[00:14:42] train spatial rows 589824/1440060 |    757 img/s | ETA  0.31 h
+[00:15:03] train spatial rows 606208/1440060 |    758 img/s | ETA  0.31 h
+[00:15:22] train spatial rows 622592/1440060 |    760 img/s | ETA  0.30 h
+[00:15:43] train spatial rows 638976/1440060 |    761 img/s | ETA  0.29 h
+[00:16:02] train spatial rows 655360/1440060 |    762 img/s | ETA  0.29 h
+[00:16:24] train spatial rows 671744/1440060 |    762 img/s | ETA  0.28 h
+[00:16:44] train spatial rows 688128/1440060 |    763 img/s | ETA  0.27 h
+[00:17:04] train spatial rows 704512/1440060 |    764 img/s | ETA  0.27 h
+[00:17:25] train spatial rows 720896/1440060 |    765 img/s | ETA  0.26 h
+[00:17:49] train spatial rows 737280/1440060 |    763 img/s | ETA  0.26 h
+[00:18:16] train spatial rows 753664/1440060 |    758 img/s | ETA  0.25 h
+[00:18:41] train spatial rows 770048/1440060 |    756 img/s | ETA  0.25 h
+[00:19:08] train spatial rows 786432/1440060 |    752 img/s | ETA  0.24 h
+[00:19:33] train spatial rows 802816/1440060 |    750 img/s | ETA  0.24 h
+[00:20:00] train spatial rows 819200/1440060 |    747 img/s | ETA  0.23 h
+[00:20:26] train spatial rows 835584/1440060 |    744 img/s | ETA  0.23 h
+[00:20:51] train spatial rows 851968/1440060 |    742 img/s | ETA  0.22 h
+[00:21:18] train spatial rows 868352/1440060 |    739 img/s | ETA  0.21 h
+[00:21:42] train spatial rows 884736/1440060 |    738 img/s | ETA  0.21 h
+[00:22:08] train spatial rows 901120/1440060 |    735 img/s | ETA  0.20 h
+[00:22:33] train spatial rows 917504/1440060 |    734 img/s | ETA  0.20 h
+[00:23:00] train spatial rows 933888/1440060 |    731 img/s | ETA  0.19 h
+[00:23:26] train spatial rows 950272/1440060 |    729 img/s | ETA  0.19 h
+[00:23:51] train spatial rows 966656/1440060 |    728 img/s | ETA  0.18 h
+[00:24:18] train spatial rows 983040/1440060 |    725 img/s | ETA  0.18 h
+[00:24:43] train spatial rows 999424/1440060 |    724 img/s | ETA  0.17 h
+[00:25:10] train spatial rows 1015808/1440060 |    722 img/s | ETA  0.16 h
+[00:25:35] train spatial rows 1032192/1440060 |    721 img/s | ETA  0.16 h
+[00:26:02] train spatial rows 1048576/1440060 |    719 img/s | ETA  0.15 h
+[00:26:28] train spatial rows 1064960/1440060 |    717 img/s | ETA  0.15 h
+[00:26:54] train spatial rows 1081344/1440060 |    715 img/s | ETA  0.14 h
+[00:27:22] train spatial rows 1097728/1440060 |    713 img/s | ETA  0.13 h
+[00:27:47] train spatial rows 1114112/1440060 |    712 img/s | ETA  0.13 h
+[00:28:15] train spatial rows 1130496/1440060 |    710 img/s | ETA  0.12 h
+[00:28:40] train spatial rows 1146880/1440060 |    709 img/s | ETA  0.11 h
+[00:29:06] train spatial rows 1163264/1440060 |    708 img/s | ETA  0.11 h
+[00:29:33] train spatial rows 1179648/1440060 |    706 img/s | ETA  0.10 h
+[00:29:58] train spatial rows 1196032/1440060 |    705 img/s | ETA  0.10 h
+[00:30:25] train spatial rows 1212416/1440060 |    704 img/s | ETA  0.09 h
+[00:30:50] train spatial rows 1228800/1440060 |    703 img/s | ETA  0.08 h
+[00:31:18] train spatial rows 1245184/1440060 |    701 img/s | ETA  0.08 h
+[00:31:43] train spatial rows 1261568/1440060 |    701 img/s | ETA  0.07 h
+[00:32:10] train spatial rows 1277952/1440060 |    699 img/s | ETA  0.06 h
+[00:32:37] train spatial rows 1294336/1440060 |    698 img/s | ETA  0.06 h
+[00:33:03] train spatial rows 1310720/1440060 |    697 img/s | ETA  0.05 h
+[00:33:30] train spatial rows 1327104/1440060 |    696 img/s | ETA  0.05 h
+[00:33:55] train spatial rows 1343488/1440060 |    695 img/s | ETA  0.04 h
+[00:34:22] train spatial rows 1359872/1440060 |    694 img/s | ETA  0.03 h
+[00:34:47] train spatial rows 1376256/1440060 |    694 img/s | ETA  0.03 h
+[00:35:13] train spatial rows 1392640/1440060 |    693 img/s | ETA  0.02 h
+[00:35:39] train spatial rows 1409024/1440060 |    692 img/s | ETA  0.01 h
+[00:36:03] train spatial rows 1425408/1440060 |    692 img/s | ETA  0.01 h
+[00:36:32] train spatial rows 1440060/1440060 |    689 img/s | ETA  0.00 h
+val: 7569 rows, resuming at 0
+[00:36:47] val spatial rows 7569/7569 |    584 img/s | ETA  0.00 h
+test: 90329 rows, resuming at 0
+[00:37:11] test spatial rows 16384/90329 |    693 img/s | ETA  0.03 h
+[00:37:31] test spatial rows 32768/90329 |    751 img/s | ETA  0.02 h
+[00:37:55] test spatial rows 49152/90329 |    728 img/s | ETA  0.02 h
+[00:39:02] test spatial rows 65536/90329 |    489 img/s | ETA  0.01 h
+[00:39:23] test spatial rows 81920/90329 |    527 img/s | ETA  0.00 h
+[00:39:45] test spatial rows 90329/90329 |    509 img/s | ETA  0.00 h
+train-only standardisation stats for the new spatial columns...
+train: written
+val: written
+test: written
+{
+ "model_version": "fp-v4.1",
+ "feature_code_hash": "369cfa92c5a260ea+spatial_ft:1401e1c80b37",
+ "spatial_encoder": {
+  "finetuned_checkpoint": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\spatial_ft\\best.pth",
+  "sha256": "1401e1c80b371e939c233403e5cab69bf7d82bd0994e02dd767d4915b47f2bba",
+  "base_store": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\feature_store"
+ }
+}

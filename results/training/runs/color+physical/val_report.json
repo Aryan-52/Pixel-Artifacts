@@ -1,0 +1,453 @@
+{
+ "overall": {
+  "accuracy": 0.7886114414057339,
+  "roc_auc": 0.8975066895488932,
+  "average_precision": 0.8997877502641378,
+  "precision": 0.7334630350194552,
+  "recall": 0.9425,
+  "f1": 0.824945295404814,
+  "confusion_matrix": [
+   [
+    2199,
+    1370
+   ],
+   [
+    230,
+    3770
+   ]
+  ],
+  "real_acc": 0.6161389745026619,
+  "fake_acc": 0.9425,
+  "n": 7569
+ },
+ "per_group": {
+  "airplane": {
+   "accuracy": 0.7625,
+   "roc_auc": 0.8968,
+   "average_precision": 0.8906470933607751,
+   "precision": 0.6868327402135231,
+   "recall": 0.965,
+   "f1": 0.8024948024948025,
+   "confusion_matrix": [
+    [
+     112,
+     88
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": 0.56,
+   "fake_acc": 0.965,
+   "n": 400
+  },
+  "bicycle": {
+   "accuracy": 0.775,
+   "roc_auc": 0.913775,
+   "average_precision": 0.90521307893923,
+   "precision": 0.7037037037037037,
+   "recall": 0.95,
+   "f1": 0.8085106382978723,
+   "confusion_matrix": [
+    [
+     120,
+     80
+    ],
+    [
+     10,
+     190
+    ]
+   ],
+   "real_acc": 0.6,
+   "fake_acc": 0.95,
+   "n": 400
+  },
+  "bird": {
+   "accuracy": 0.7543859649122807,
+   "roc_auc": 0.8668090452261307,
+   "average_precision": 0.8450794702213329,
+   "precision": 0.6847826086956522,
+   "recall": 0.945,
+   "f1": 0.7941176470588235,
+   "confusion_matrix": [
+    [
+     112,
+     87
+    ],
+    [
+     11,
+     189
+    ]
+   ],
+   "real_acc": 0.5628140703517588,
+   "fake_acc": 0.945,
+   "n": 399
+  },
+  "boat": {
+   "accuracy": 0.7669172932330827,
+   "roc_auc": 0.8850753768844221,
+   "average_precision": 0.871799285025446,
+   "precision": 0.6974169741697417,
+   "recall": 0.945,
+   "f1": 0.802547770700637,
+   "confusion_matrix": [
+    [
+     117,
+     82
+    ],
+    [
+     11,
+     189
+    ]
+   ],
+   "real_acc": 0.5879396984924623,
+   "fake_acc": 0.945,
+   "n": 399
+  },
+  "bottle": {
+   "accuracy": 0.8375,
+   "roc_auc": 0.9321250000000001,
+   "average_precision": 0.9311924055285196,
+   "precision": 0.7896995708154506,
+   "recall": 0.92,
+   "f1": 0.8498845265588915,
+   "confusion_matrix": [
+    [
+     151,
+     49
+    ],
+    [
+     16,
+     184
+    ]
+   ],
+   "real_acc": 0.755,
+   "fake_acc": 0.92,
+   "n": 400
+  },
+  "bus": {
+   "accuracy": 0.775,
+   "roc_auc": 0.863825,
+   "average_precision": 0.8531704215641966,
+   "precision": 0.7272727272727273,
+   "recall": 0.88,
+   "f1": 0.7963800904977375,
+   "confusion_matrix": [
+    [
+     134,
+     66
+    ],
+    [
+     24,
+     176
+    ]
+   ],
+   "real_acc": 0.67,
+   "fake_acc": 0.88,
+   "n": 400
+  },
+  "car": {
+   "accuracy": 0.7869674185463659,
+   "roc_auc": 0.9084673366834172,
+   "average_precision": 0.8949793655596067,
+   "precision": 0.7169811320754716,
+   "recall": 0.95,
+   "f1": 0.8172043010752689,
+   "confusion_matrix": [
+    [
+     124,
+     75
+    ],
+    [
+     10,
+     190
+    ]
+   ],
+   "real_acc": 0.6231155778894473,
+   "fake_acc": 0.95,
+   "n": 399
+  },
+  "cat": {
+   "accuracy": 0.95,
+   "roc_auc": NaN,
+   "average_precision": NaN,
+   "precision": 1.0,
+   "recall": 0.95,
+   "f1": 0.9743589743589743,
+   "confusion_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     10,
+     190
+    ]
+   ],
+   "real_acc": NaN,
+   "fake_acc": 0.95,
+   "n": 200
+  },
+  "chair": {
+   "accuracy": 0.8417085427135679,
+   "roc_auc": 0.9501515151515151,
+   "average_precision": 0.9374601356894016,
+   "precision": 0.7729083665338645,
+   "recall": 0.97,
+   "f1": 0.8603104212860311,
+   "confusion_matrix": [
+    [
+     141,
+     57
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.7121212121212122,
+   "fake_acc": 0.97,
+   "n": 398
+  },
+  "cow": {
+   "accuracy": 0.7518987341772152,
+   "roc_auc": 0.906025641025641,
+   "average_precision": 0.9086490646089235,
+   "precision": 0.6783216783216783,
+   "recall": 0.97,
+   "f1": 0.7983539094650206,
+   "confusion_matrix": [
+    [
+     103,
+     92
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.5282051282051282,
+   "fake_acc": 0.97,
+   "n": 395
+  },
+  "diningtable": {
+   "accuracy": 0.7914572864321608,
+   "roc_auc": 0.9250252525252526,
+   "average_precision": 0.924471800131663,
+   "precision": 0.7174721189591078,
+   "recall": 0.965,
+   "f1": 0.8230277185501066,
+   "confusion_matrix": [
+    [
+     122,
+     76
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": 0.6161616161616161,
+   "fake_acc": 0.965,
+   "n": 398
+  },
+  "dog": {
+   "accuracy": 0.7719298245614035,
+   "roc_auc": 0.8783668341708541,
+   "average_precision": 0.8662514125154184,
+   "precision": 0.6981818181818182,
+   "recall": 0.96,
+   "f1": 0.8084210526315789,
+   "confusion_matrix": [
+    [
+     116,
+     83
+    ],
+    [
+     8,
+     192
+    ]
+   ],
+   "real_acc": 0.5829145728643216,
+   "fake_acc": 0.96,
+   "n": 399
+  },
+  "horse": {
+   "accuracy": 0.945,
+   "roc_auc": NaN,
+   "average_precision": NaN,
+   "precision": 1.0,
+   "recall": 0.945,
+   "f1": 0.9717223650385605,
+   "confusion_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     11,
+     189
+    ]
+   ],
+   "real_acc": NaN,
+   "fake_acc": 0.945,
+   "n": 200
+  },
+  "motorbike": {
+   "accuracy": 0.7894736842105263,
+   "roc_auc": 0.9151256281407035,
+   "average_precision": 0.9123583459882983,
+   "precision": 0.7116788321167883,
+   "recall": 0.975,
+   "f1": 0.8227848101265823,
+   "confusion_matrix": [
+    [
+     120,
+     79
+    ],
+    [
+     5,
+     195
+    ]
+   ],
+   "real_acc": 0.6030150753768844,
+   "fake_acc": 0.975,
+   "n": 399
+  },
+  "person": {
+   "accuracy": 0.775,
+   "roc_auc": 0.881275,
+   "average_precision": 0.8886056766264352,
+   "precision": 0.72,
+   "recall": 0.9,
+   "f1": 0.8,
+   "confusion_matrix": [
+    [
+     130,
+     70
+    ],
+    [
+     20,
+     180
+    ]
+   ],
+   "real_acc": 0.65,
+   "fake_acc": 0.9,
+   "n": 400
+  },
+  "pottedplant": {
+   "accuracy": 0.7475,
+   "roc_auc": 0.85305,
+   "average_precision": 0.8517277120539909,
+   "precision": 0.6911196911196911,
+   "recall": 0.895,
+   "f1": 0.7799564270152506,
+   "confusion_matrix": [
+    [
+     120,
+     80
+    ],
+    [
+     21,
+     179
+    ]
+   ],
+   "real_acc": 0.6,
+   "fake_acc": 0.895,
+   "n": 400
+  },
+  "sheep": {
+   "accuracy": 0.696969696969697,
+   "roc_auc": 0.8489668367346939,
+   "average_precision": 0.8289201016009841,
+   "precision": 0.6324503311258278,
+   "recall": 0.955,
+   "f1": 0.7609561752988048,
+   "confusion_matrix": [
+    [
+     85,
+     111
+    ],
+    [
+     9,
+     191
+    ]
+   ],
+   "real_acc": 0.4336734693877551,
+   "fake_acc": 0.955,
+   "n": 396
+  },
+  "sofa": {
+   "accuracy": 0.7544757033248082,
+   "roc_auc": 0.8934031413612565,
+   "average_precision": 0.8952615428697813,
+   "precision": 0.6884057971014492,
+   "recall": 0.95,
+   "f1": 0.7983193277310925,
+   "confusion_matrix": [
+    [
+     105,
+     86
+    ],
+    [
+     10,
+     190
+    ]
+   ],
+   "real_acc": 0.5497382198952879,
+   "fake_acc": 0.95,
+   "n": 391
+  },
+  "train": {
+   "accuracy": 0.7775,
+   "roc_auc": 0.877925,
+   "average_precision": 0.8759098372763445,
+   "precision": 0.7228915662650602,
+   "recall": 0.9,
+   "f1": 0.8017817371937639,
+   "confusion_matrix": [
+    [
+     131,
+     69
+    ],
+    [
+     20,
+     180
+    ]
+   ],
+   "real_acc": 0.655,
+   "fake_acc": 0.9,
+   "n": 400
+  },
+  "tvmonitor": {
+   "accuracy": 0.8787878787878788,
+   "roc_auc": 0.9646173469387755,
+   "average_precision": 0.965892900317835,
+   "precision": 0.8275862068965517,
+   "recall": 0.96,
+   "f1": 0.8888888888888888,
+   "confusion_matrix": [
+    [
+     156,
+     40
+    ],
+    [
+     8,
+     192
+    ]
+   ],
+   "real_acc": 0.7959183673469388,
+   "fake_acc": 0.96,
+   "n": 396
+  }
+ },
+ "best_epoch": 9,
+ "temperature": 1.0,
+ "temperature_unconstrained": 0.904391348361969,
+ "mean_fusion_weights": {
+  "color": 0.5117835402488708,
+  "physical": 0.48821648955345154
+ },
+ "note": "in-distribution ProGAN validation; used for selection; not zero-shot"
+}

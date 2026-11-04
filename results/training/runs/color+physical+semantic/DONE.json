@@ -1,0 +1,11 @@
+{
+ "active": [
+  "color",
+  "physical",
+  "semantic"
+ ],
+ "best_epoch": 18,
+ "test_acc": 0.7776240188643736,
+ "test_auc": 0.8714110461761351,
+ "finished": "2026-11-01T08:17:59.463873"
+}

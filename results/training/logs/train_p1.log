@@ -1,0 +1,32 @@
+1 runs: ['spatial+frequency+color+physical+semantic']
+[full] 1,440,060 rows | 22,501 batches/epoch | dims {'spatial': 1952, 'frequency': 408, 'color': 133, 'physical': 89, 'semantic': 512}
+[full] epoch 1 batch 19456/22501 | loss 0.1641 | checkpoint 21:02:59
+[full] epoch 1/50 | val loss 0.01794 | acc 0.9956 | AUC 0.9999 | 353s | patience 0 *best*
+[full] epoch 2 batch 19968/22501 | loss 0.1446 | checkpoint 21:08:55
+[full] epoch 2/50 | val loss 0.01579 | acc 0.9960 | AUC 0.9999 | 349s | patience 0 *best*
+[full] epoch 3/50 | val loss 0.01754 | acc 0.9970 | AUC 1.0000 | 295s | patience 1
+[full] epoch 4/50 | val loss 0.01187 | acc 0.9982 | AUC 1.0000 | 252s | patience 0 *best*
+[full] epoch 5 batch 20480/22501 | loss 0.1175 | checkpoint 21:23:46
+[full] epoch 5/50 | val loss 0.01462 | acc 0.9980 | AUC 1.0000 | 332s | patience 1
+[full] epoch 6 batch 19456/22501 | loss 0.1143 | checkpoint 21:29:24
+[full] epoch 6/50 | val loss 0.01736 | acc 0.9978 | AUC 1.0000 | 362s | patience 2
+[full] epoch 7 batch 18432/22501 | loss 0.1114 | checkpoint 21:35:21
+[full] epoch 7/50 | val loss 0.01073 | acc 0.9987 | AUC 1.0000 | 365s | patience 0 *best*
+[full] epoch 8 batch 19968/22501 | loss 0.1091 | checkpoint 21:41:28
+[full] epoch 8/50 | val loss 0.01683 | acc 0.9976 | AUC 1.0000 | 346s | patience 1
+[full] epoch 9 batch 18944/22501 | loss 0.1075 | checkpoint 21:47:18
+[full] epoch 9/50 | val loss 0.01362 | acc 0.9982 | AUC 1.0000 | 366s | patience 2
+[full] epoch 10 batch 20480/22501 | loss 0.1059 | checkpoint 21:53:17
+[full] epoch 10/50 | val loss 0.01399 | acc 0.9980 | AUC 1.0000 | 331s | patience 3
+[full] epoch 11 batch 20480/22501 | loss 0.1045 | checkpoint 21:58:48
+[full] epoch 11/50 | val loss 0.01533 | acc 0.9982 | AUC 1.0000 | 333s | patience 4
+[full] epoch 12 batch 20992/22501 | loss 0.1032 | checkpoint 22:04:25
+[full] epoch 12/50 | val loss 0.01277 | acc 0.9991 | AUC 1.0000 | 329s | patience 5
+[full] epoch 13 batch 18944/22501 | loss 0.1019 | checkpoint 22:09:55
+[full] epoch 13/50 | val loss 0.01453 | acc 0.9983 | AUC 1.0000 | 363s | patience 6
+[full] epoch 14 batch 19968/22501 | loss 0.1004 | checkpoint 22:15:57
+[full] epoch 14/50 | val loss 0.01237 | acc 0.9983 | AUC 0.9999 | 344s | patience 7
+[full] epoch 15 batch 19968/22501 | loss 0.1003 | checkpoint 22:21:37
+[full] epoch 15/50 | val loss 0.01363 | acc 0.9984 | AUC 1.0000 | 338s | patience 8
+[full] TEST acc 0.8163 | AUC 0.9265 | real 0.963 fake 0.669
+All requested runs done.

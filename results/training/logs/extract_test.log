@@ -1,0 +1,87 @@
+{
+ "split": "test",
+ "sig": "27bb1f8ef31c",
+ "feature_code_hash": "369cfa92c5a260ea",
+ "matches_fp_v3_hash": true,
+ "n_samples": 90329,
+ "n_copies": 1,
+ "n_entries": 90329,
+ "n_shards": 45,
+ "shard_size": 2048,
+ "limit": null,
+ "batch_size": 64,
+ "library_versions": {
+  "python": "3.12.13",
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "open_clip": "3.3.0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3"
+ }
+}
+0/45 shards already done; 45 to extract
+Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+[19:52:37] test shard 1/45 saved | 1/45 this run |  286.1 img/s | ETA  0.09 h | sha mismatches 0
+[19:52:41] test shard 2/45 saved | 2/45 this run |  370.6 img/s | ETA  0.07 h | sha mismatches 0
+[19:52:45] test shard 3/45 saved | 3/45 this run |  409.0 img/s | ETA  0.06 h | sha mismatches 0
+[19:52:49] test shard 4/45 saved | 4/45 this run |  430.2 img/s | ETA  0.05 h | sha mismatches 0
+[19:52:53] test shard 5/45 saved | 5/45 this run |  444.5 img/s | ETA  0.05 h | sha mismatches 0
+[19:52:57] test shard 6/45 saved | 6/45 this run |  454.3 img/s | ETA  0.05 h | sha mismatches 0
+[19:53:01] test shard 7/45 saved | 7/45 this run |  460.9 img/s | ETA  0.05 h | sha mismatches 0
+[19:53:05] test shard 8/45 saved | 8/45 this run |  466.2 img/s | ETA  0.05 h | sha mismatches 0
+[19:53:09] test shard 9/45 saved | 9/45 this run |  469.1 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:14] test shard 10/45 saved | 10/45 this run |  467.9 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:18] test shard 11/45 saved | 11/45 this run |  466.9 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:23] test shard 12/45 saved | 12/45 this run |  467.1 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:28] test shard 13/45 saved | 13/45 this run |  462.5 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:33] test shard 14/45 saved | 14/45 this run |  456.0 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:38] test shard 15/45 saved | 15/45 this run |  451.1 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:43] test shard 16/45 saved | 16/45 this run |  446.3 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:49] test shard 17/45 saved | 17/45 this run |  442.8 img/s | ETA  0.04 h | sha mismatches 0
+[19:53:54] test shard 18/45 saved | 18/45 this run |  438.9 img/s | ETA  0.03 h | sha mismatches 0
+[19:53:59] test shard 19/45 saved | 19/45 this run |  435.9 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:05] test shard 20/45 saved | 20/45 this run |  432.7 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:10] test shard 21/45 saved | 21/45 this run |  430.3 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:15] test shard 22/45 saved | 22/45 this run |  427.7 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:21] test shard 23/45 saved | 23/45 this run |  425.7 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:26] test shard 24/45 saved | 24/45 this run |  423.6 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:31] test shard 25/45 saved | 25/45 this run |  423.5 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:36] test shard 26/45 saved | 26/45 this run |  421.9 img/s | ETA  0.03 h | sha mismatches 0
+[19:54:42] test shard 27/45 saved | 27/45 this run |  420.4 img/s | ETA  0.02 h | sha mismatches 0
+[19:55:38] test shard 28/45 saved | 28/45 this run |  304.7 img/s | ETA  0.03 h | sha mismatches 0
+[19:55:42] test shard 29/45 saved | 29/45 this run |  309.0 img/s | ETA  0.03 h | sha mismatches 0
+[19:55:46] test shard 30/45 saved | 30/45 this run |  313.0 img/s | ETA  0.03 h | sha mismatches 0
+[19:55:50] test shard 31/45 saved | 31/45 this run |  316.6 img/s | ETA  0.03 h | sha mismatches 0
+[19:55:55] test shard 32/45 saved | 32/45 this run |  319.8 img/s | ETA  0.02 h | sha mismatches 0
+[19:55:59] test shard 33/45 saved | 33/45 this run |  323.0 img/s | ETA  0.02 h | sha mismatches 0
+[19:56:04] test shard 34/45 saved | 34/45 this run |  325.1 img/s | ETA  0.02 h | sha mismatches 0
+[19:56:09] test shard 35/45 saved | 35/45 this run |  328.0 img/s | ETA  0.02 h | sha mismatches 0
+[19:56:13] test shard 36/45 saved | 36/45 this run |  330.6 img/s | ETA  0.02 h | sha mismatches 0
+[19:56:17] test shard 37/45 saved | 37/45 this run |  333.2 img/s | ETA  0.01 h | sha mismatches 0
+[19:56:22] test shard 38/45 saved | 38/45 this run |  335.4 img/s | ETA  0.01 h | sha mismatches 0
+[19:56:26] test shard 39/45 saved | 39/45 this run |  337.9 img/s | ETA  0.01 h | sha mismatches 0
+[19:56:31] test shard 40/45 saved | 40/45 this run |  340.4 img/s | ETA  0.01 h | sha mismatches 0
+[19:56:35] test shard 41/45 saved | 41/45 this run |  342.5 img/s | ETA  0.01 h | sha mismatches 0
+[19:56:39] test shard 42/45 saved | 42/45 this run |  344.8 img/s | ETA  0.00 h | sha mismatches 0
+[19:56:44] test shard 43/45 saved | 43/45 this run |  346.7 img/s | ETA  0.00 h | sha mismatches 0
+[19:56:55] test shard 44/45 saved | 44/45 this run |  339.6 img/s | ETA  0.00 h | sha mismatches 0
+[19:56:58] test shard 45/45 saved | 45/45 this run |  343.5 img/s | ETA  0.00 h | sha mismatches 0
+{
+ "split": "test",
+ "sig": "27bb1f8ef31c",
+ "feature_code_hash": "369cfa92c5a260ea",
+ "matches_fp_v3_hash": true,
+ "n_samples": 90329,
+ "n_copies": 1,
+ "n_entries": 90329,
+ "n_shards": 45,
+ "shard_size": 2048,
+ "limit": null,
+ "batch_size": 64,
+ "seconds_this_run": 268.32964277267456
+}

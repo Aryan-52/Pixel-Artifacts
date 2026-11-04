@@ -1,0 +1,7 @@
+5 runs: ['frequency', 'physical', 'spatial+frequency+color+physical', 'spatial+frequency+physical+semantic', 'frequency+color+physical+semantic']
+[frequency] already done
+[physical] already done
+[spatial+frequency+color+physical] already done
+[spatial+frequency+physical+semantic] already done
+[frequency+color+physical+semantic] already done
+All requested runs done.

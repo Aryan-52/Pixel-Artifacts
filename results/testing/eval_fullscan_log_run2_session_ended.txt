@@ -1,0 +1,7 @@
+Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+resuming at image 51200

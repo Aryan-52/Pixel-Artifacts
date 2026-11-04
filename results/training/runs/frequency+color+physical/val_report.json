@@ -1,0 +1,454 @@
+{
+ "overall": {
+  "accuracy": 0.9112168053904083,
+  "roc_auc": 0.9768751050714487,
+  "average_precision": 0.979325247631416,
+  "precision": 0.8774954627949183,
+  "recall": 0.967,
+  "f1": 0.9200761179828735,
+  "confusion_matrix": [
+   [
+    3029,
+    540
+   ],
+   [
+    132,
+    3868
+   ]
+  ],
+  "real_acc": 0.8486971140375456,
+  "fake_acc": 0.967,
+  "n": 7569
+ },
+ "per_group": {
+  "airplane": {
+   "accuracy": 0.92,
+   "roc_auc": 0.9856,
+   "average_precision": 0.9859216681398718,
+   "precision": 0.875,
+   "recall": 0.98,
+   "f1": 0.9245283018867925,
+   "confusion_matrix": [
+    [
+     172,
+     28
+    ],
+    [
+     4,
+     196
+    ]
+   ],
+   "real_acc": 0.86,
+   "fake_acc": 0.98,
+   "n": 400
+  },
+  "bicycle": {
+   "accuracy": 0.91,
+   "roc_auc": 0.9739,
+   "average_precision": 0.9754884863204041,
+   "precision": 0.8660714285714286,
+   "recall": 0.97,
+   "f1": 0.9150943396226415,
+   "confusion_matrix": [
+    [
+     170,
+     30
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.85,
+   "fake_acc": 0.97,
+   "n": 400
+  },
+  "bird": {
+   "accuracy": 0.8947368421052632,
+   "roc_auc": 0.9724874371859296,
+   "average_precision": 0.9755377730594774,
+   "precision": 0.8726415094339622,
+   "recall": 0.925,
+   "f1": 0.8980582524271845,
+   "confusion_matrix": [
+    [
+     172,
+     27
+    ],
+    [
+     15,
+     185
+    ]
+   ],
+   "real_acc": 0.864321608040201,
+   "fake_acc": 0.925,
+   "n": 399
+  },
+  "boat": {
+   "accuracy": 0.8847117794486216,
+   "roc_auc": 0.9555527638190955,
+   "average_precision": 0.955441522208054,
+   "precision": 0.8318965517241379,
+   "recall": 0.965,
+   "f1": 0.8935185185185185,
+   "confusion_matrix": [
+    [
+     160,
+     39
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": 0.8040201005025126,
+   "fake_acc": 0.965,
+   "n": 399
+  },
+  "bottle": {
+   "accuracy": 0.9625,
+   "roc_auc": 0.99195,
+   "average_precision": 0.9922156911744201,
+   "precision": 0.9383886255924171,
+   "recall": 0.99,
+   "f1": 0.9635036496350365,
+   "confusion_matrix": [
+    [
+     187,
+     13
+    ],
+    [
+     2,
+     198
+    ]
+   ],
+   "real_acc": 0.935,
+   "fake_acc": 0.99,
+   "n": 400
+  },
+  "bus": {
+   "accuracy": 0.9225,
+   "roc_auc": 0.9754,
+   "average_precision": 0.9713122161193797,
+   "precision": 0.8930232558139535,
+   "recall": 0.96,
+   "f1": 0.9253012048192771,
+   "confusion_matrix": [
+    [
+     177,
+     23
+    ],
+    [
+     8,
+     192
+    ]
+   ],
+   "real_acc": 0.885,
+   "fake_acc": 0.96,
+   "n": 400
+  },
+  "car": {
+   "accuracy": 0.8972431077694235,
+   "roc_auc": 0.9704020100502513,
+   "average_precision": 0.9711501345755288,
+   "precision": 0.8502202643171806,
+   "recall": 0.965,
+   "f1": 0.9039812646370023,
+   "confusion_matrix": [
+    [
+     165,
+     34
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": 0.8291457286432161,
+   "fake_acc": 0.965,
+   "n": 399
+  },
+  "cat": {
+   "accuracy": 0.985,
+   "roc_auc": NaN,
+   "average_precision": NaN,
+   "precision": 1.0,
+   "recall": 0.985,
+   "f1": 0.9924433249370277,
+   "confusion_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     3,
+     197
+    ]
+   ],
+   "real_acc": NaN,
+   "fake_acc": 0.985,
+   "n": 200
+  },
+  "chair": {
+   "accuracy": 0.9321608040201005,
+   "roc_auc": 0.9895959595959596,
+   "average_precision": 0.9890834711706955,
+   "precision": 0.8878923766816144,
+   "recall": 0.99,
+   "f1": 0.9361702127659575,
+   "confusion_matrix": [
+    [
+     173,
+     25
+    ],
+    [
+     2,
+     198
+    ]
+   ],
+   "real_acc": 0.8737373737373737,
+   "fake_acc": 0.99,
+   "n": 398
+  },
+  "cow": {
+   "accuracy": 0.8886075949367088,
+   "roc_auc": 0.9791282051282051,
+   "average_precision": 0.9809446705612384,
+   "precision": 0.8362068965517241,
+   "recall": 0.97,
+   "f1": 0.8981481481481481,
+   "confusion_matrix": [
+    [
+     157,
+     38
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.8051282051282052,
+   "fake_acc": 0.97,
+   "n": 395
+  },
+  "diningtable": {
+   "accuracy": 0.9271356783919598,
+   "roc_auc": 0.9898232323232323,
+   "average_precision": 0.9908473680152861,
+   "precision": 0.8834080717488789,
+   "recall": 0.985,
+   "f1": 0.9314420803782506,
+   "confusion_matrix": [
+    [
+     172,
+     26
+    ],
+    [
+     3,
+     197
+    ]
+   ],
+   "real_acc": 0.8686868686868687,
+   "fake_acc": 0.985,
+   "n": 398
+  },
+  "dog": {
+   "accuracy": 0.8972431077694235,
+   "roc_auc": 0.9760301507537689,
+   "average_precision": 0.9773143764881114,
+   "precision": 0.8502202643171806,
+   "recall": 0.965,
+   "f1": 0.9039812646370023,
+   "confusion_matrix": [
+    [
+     165,
+     34
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": 0.8291457286432161,
+   "fake_acc": 0.965,
+   "n": 399
+  },
+  "horse": {
+   "accuracy": 0.965,
+   "roc_auc": NaN,
+   "average_precision": NaN,
+   "precision": 1.0,
+   "recall": 0.965,
+   "f1": 0.9821882951653944,
+   "confusion_matrix": [
+    [
+     0,
+     0
+    ],
+    [
+     7,
+     193
+    ]
+   ],
+   "real_acc": NaN,
+   "fake_acc": 0.965,
+   "n": 200
+  },
+  "motorbike": {
+   "accuracy": 0.8947368421052632,
+   "roc_auc": 0.9687688442211055,
+   "average_precision": 0.9670122944246784,
+   "precision": 0.8434782608695652,
+   "recall": 0.97,
+   "f1": 0.9023255813953488,
+   "confusion_matrix": [
+    [
+     163,
+     36
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.8190954773869347,
+   "fake_acc": 0.97,
+   "n": 399
+  },
+  "person": {
+   "accuracy": 0.915,
+   "roc_auc": 0.9733250000000001,
+   "average_precision": 0.9741730193800876,
+   "precision": 0.9029126213592233,
+   "recall": 0.93,
+   "f1": 0.916256157635468,
+   "confusion_matrix": [
+    [
+     180,
+     20
+    ],
+    [
+     14,
+     186
+    ]
+   ],
+   "real_acc": 0.9,
+   "fake_acc": 0.93,
+   "n": 400
+  },
+  "pottedplant": {
+   "accuracy": 0.88,
+   "roc_auc": 0.9707749999999999,
+   "average_precision": 0.9718972825347407,
+   "precision": 0.8220338983050848,
+   "recall": 0.97,
+   "f1": 0.8899082568807339,
+   "confusion_matrix": [
+    [
+     158,
+     42
+    ],
+    [
+     6,
+     194
+    ]
+   ],
+   "real_acc": 0.79,
+   "fake_acc": 0.97,
+   "n": 400
+  },
+  "sheep": {
+   "accuracy": 0.8712121212121212,
+   "roc_auc": 0.9738775510204081,
+   "average_precision": 0.9766765027381733,
+   "precision": 0.8170212765957446,
+   "recall": 0.96,
+   "f1": 0.8827586206896552,
+   "confusion_matrix": [
+    [
+     153,
+     43
+    ],
+    [
+     8,
+     192
+    ]
+   ],
+   "real_acc": 0.7806122448979592,
+   "fake_acc": 0.96,
+   "n": 396
+  },
+  "sofa": {
+   "accuracy": 0.8849104859335039,
+   "roc_auc": 0.9633769633507854,
+   "average_precision": 0.9615496805507298,
+   "precision": 0.8297872340425532,
+   "recall": 0.975,
+   "f1": 0.896551724137931,
+   "confusion_matrix": [
+    [
+     151,
+     40
+    ],
+    [
+     5,
+     195
+    ]
+   ],
+   "real_acc": 0.7905759162303665,
+   "fake_acc": 0.975,
+   "n": 391
+  },
+  "train": {
+   "accuracy": 0.9075,
+   "roc_auc": 0.9759,
+   "average_precision": 0.976980507888056,
+   "precision": 0.8790697674418605,
+   "recall": 0.945,
+   "f1": 0.9108433734939759,
+   "confusion_matrix": [
+    [
+     174,
+     26
+    ],
+    [
+     11,
+     189
+    ]
+   ],
+   "real_acc": 0.87,
+   "fake_acc": 0.945,
+   "n": 400
+  },
+  "tvmonitor": {
+   "accuracy": 0.946969696969697,
+   "roc_auc": 0.9927551020408163,
+   "average_precision": 0.9928447473637744,
+   "precision": 0.9241706161137441,
+   "recall": 0.975,
+   "f1": 0.948905109489051,
+   "confusion_matrix": [
+    [
+     180,
+     16
+    ],
+    [
+     5,
+     195
+    ]
+   ],
+   "real_acc": 0.9183673469387755,
+   "fake_acc": 0.975,
+   "n": 396
+  }
+ },
+ "best_epoch": 14,
+ "temperature": 1.0,
+ "temperature_unconstrained": 0.8546504378318787,
+ "mean_fusion_weights": {
+  "frequency": 0.3268311023712158,
+  "color": 0.3195613622665405,
+  "physical": 0.35360750555992126
+ },
+ "note": "in-distribution ProGAN validation; used for selection; not zero-shot"
+}

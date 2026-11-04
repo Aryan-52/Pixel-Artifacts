@@ -1,0 +1,73 @@
+{
+  "code_version": "fp-v3.0",
+  "seed": 42,
+  "run_tag": "full",
+  "all_pillars": [
+    "spatial",
+    "frequency",
+    "color",
+    "physical",
+    "semantic"
+  ],
+  "active_pillars": [
+    "spatial",
+    "frequency",
+    "color",
+    "physical",
+    "semantic"
+  ],
+  "dataset_dir": "/kaggle/working/cnndetection_project/datasets/ForenSynths_train",
+  "image_size": 224,
+  "train_aug_copies": 1,
+  "val_aug": false,
+  "feature_extraction": {
+    "batch_size": 64,
+    "shard_size": 2048,
+    "freq_bins": 64,
+    "freq_r_max": 1.4142135623730951,
+    "spatial_tap_stages": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "feature_clip": 10.0
+  },
+  "model": {
+    "pillar_dim": 256,
+    "hidden_dim": 512,
+    "head_dropout": 0.3,
+    "head_dropout2": 0.2,
+    "input_dropout": 0.1,
+    "proj_dropout": 0.15,
+    "gate_dropout": 0.1,
+    "pillar_dropout": 0.15
+  },
+  "training": {
+    "batch_size": 256,
+    "max_epochs": 40,
+    "warmup_epochs": 2,
+    "lr": 0.0005,
+    "min_lr_frac": 0.02,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.02,
+    "gate_entropy_weight": 0.01,
+    "early_stopping_patience": 8,
+    "min_delta": 0.0001,
+    "max_grad_norm": 1.0,
+    "use_amp": true,
+    "selection_metric": "clean_val_bce_loss"
+  },
+  "classification_threshold": 0.5,
+  "temperature_rule": "fit on clean validation logits only; final T = max(1.0, fitted T)",
+  "created": "2026-10-01T08:33:56.379929",
+  "gpu": "Tesla T4",
+  "library_versions": {
+    "python": "3.12.13",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "open_clip": "3.3.0",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3"
+  }
+}

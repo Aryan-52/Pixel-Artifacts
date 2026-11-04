@@ -1,0 +1,34 @@
+{
+ "model_version": "fp-v4.1",
+ "packaged": "2026-11-02T07:27:11",
+ "files": {
+  "head.pth": {
+   "sha256": "34daea227cfec65b224b860a327adbf7d0cf8dc3de345c7df5c902735c88cb86",
+   "source": "results\\training\\runs_ft\\full\\best_model.pth"
+  },
+  "spatial_effnet.pth": {
+   "sha256": "1401e1c80b371e939c233403e5cab69bf7d82bd0994e02dd767d4915b47f2bba",
+   "source": "results\\training\\spatial_ft\\best.pth"
+  },
+  "test_report.json": {
+   "sha256": "fdc1b74259fb84b706f9046511d52187af7fb653bf63f7bece0b35abc103e6e2",
+   "source": "results\\training\\runs_ft\\full\\test_report.json"
+  },
+  "val_report.json": {
+   "sha256": "cb88672d3082c1f7393e58c427aeccd01cf1e1d3596c00364ac561ec1bd6fdfe",
+   "source": "results\\training\\runs_ft\\full\\val_report.json"
+  },
+  "test_predictions.npz": {
+   "sha256": "ce69c9cabf8940a31ec320f8b052e7883fff334acae0d0991b29b81c97751b58",
+   "source": "results\\training\\runs_ft\\full\\test_predictions.npz"
+  },
+  "head_history.csv": {
+   "sha256": "9dd96c05f729f0ab2e4e3421ed7f2a4395b21cb6f91432dec6f0072db5eef50b",
+   "source": "results\\training\\runs_ft\\full\\history.csv"
+  },
+  "spatial_history.csv": {
+   "sha256": "68187e61e5f1f472095acc69955e4953f54f0ebc4f8d6ae8628432e8f9d78bcd",
+   "source": "results\\training\\spatial_ft\\history.csv"
+  }
+ }
+}

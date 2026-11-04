@@ -1,0 +1,10 @@
+{
+ "active": [
+  "frequency",
+  "semantic"
+ ],
+ "best_epoch": 10,
+ "test_acc": 0.8080350717931118,
+ "test_auc": 0.8787721431711603,
+ "finished": "2026-11-01T00:26:10.319443"
+}

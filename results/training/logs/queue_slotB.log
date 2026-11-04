@@ -1,0 +1,8 @@
+[2026-10-31 21.21.15] waiting for PID 4052
+[2026-11-01 07.09.31] start (1/3): --group p2 --slot 1/2 -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\logs\train_slotB_group_p2_slot_1_2.log
+[2026-11-01 07.09.51] exit code 0: --group p2 --slot 1/2
+[2026-11-01 07.09.51] start (1/3): --group p3 --part 1/2 --slot 2/3 -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\logs\train_slotB_group_p3_part_1_2_slot_2_3.log
+[2026-11-01 12.33.09] exit code 0: --group p3 --part 1/2 --slot 2/3
+[2026-11-01 12.33.09] start (1/3): --group p3 --part 2/2 --slot 2/3 --reverse -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\logs\train_slotB_group_p3_part_2_2_slot_2_3_reverse.log
+[2026-11-01 12.34.29] exit code 0: --group p3 --part 2/2 --slot 2/3 --reverse
+[2026-11-01 12.34.29] queue finished

@@ -1,0 +1,10 @@
+{
+ "active": [
+  "spatial",
+  "frequency"
+ ],
+ "best_epoch": 9,
+ "test_acc": 0.762645440556189,
+ "test_auc": 0.8568722052723516,
+ "finished": "2026-10-31T23:32:16.394762"
+}

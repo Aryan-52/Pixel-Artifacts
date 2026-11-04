@@ -1,0 +1,58 @@
+computing train-only standardisation stats...
+  stats: 50/704 shards
+  stats: 100/704 shards
+  stats: 150/704 shards
+  stats: 200/704 shards
+  stats: 250/704 shards
+  stats: 300/704 shards
+  stats: 350/704 shards
+  stats: 400/704 shards
+  stats: 450/704 shards
+  stats: 500/704 shards
+  stats: 550/704 shards
+  stats: 600/704 shards
+  stats: 650/704 shards
+  stats: 700/704 shards
+writing train...
+  train: 50/704 shards written
+  train: 100/704 shards written
+  train: 150/704 shards written
+  train: 200/704 shards written
+  train: 250/704 shards written
+  train: 300/704 shards written
+  train: 350/704 shards written
+  train: 400/704 shards written
+  train: 450/704 shards written
+  train: 500/704 shards written
+  train: 550/704 shards written
+  train: 600/704 shards written
+  train: 650/704 shards written
+  train: 700/704 shards written
+writing val...
+writing test...
+{
+ "train": {
+  "sig": "9b62eada1291",
+  "n_entries": 1440060,
+  "n_rows": 1440060,
+  "n_dropped": 0,
+  "n_real": 719940,
+  "n_fake": 720120
+ },
+ "val": {
+  "sig": "77e21cc68c19",
+  "n_entries": 7569,
+  "n_rows": 7569,
+  "n_dropped": 0,
+  "n_real": 3569,
+  "n_fake": 4000
+ },
+ "test": {
+  "sig": "27bb1f8ef31c",
+  "n_entries": 90329,
+  "n_rows": 90329,
+  "n_dropped": 0,
+  "n_real": 45169,
+  "n_fake": 45160
+ }
+}

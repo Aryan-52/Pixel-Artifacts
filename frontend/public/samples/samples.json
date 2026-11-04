@@ -1,0 +1,210 @@
+[
+ {
+  "file": "samples/progan_real.png",
+  "generator": "progan",
+  "label": "real",
+  "p_ai": 0.0053,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/progan_ai.png",
+  "generator": "progan",
+  "label": "ai",
+  "p_ai": 0.9927,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/stylegan_real.png",
+  "generator": "stylegan",
+  "label": "real",
+  "p_ai": 0.0058,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/stylegan_ai.png",
+  "generator": "stylegan",
+  "label": "ai",
+  "p_ai": 0.9929,
+  "width": 512,
+  "height": 384
+ },
+ {
+  "file": "samples/stylegan2_real.png",
+  "generator": "stylegan2",
+  "label": "real",
+  "p_ai": 0.0055,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/stylegan2_ai.png",
+  "generator": "stylegan2",
+  "label": "ai",
+  "p_ai": 0.9932,
+  "width": 512,
+  "height": 384
+ },
+ {
+  "file": "samples/biggan_real.png",
+  "generator": "biggan",
+  "label": "real",
+  "p_ai": 0.0074,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/biggan_ai.png",
+  "generator": "biggan",
+  "label": "ai",
+  "p_ai": 0.9921,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/cyclegan_real.png",
+  "generator": "cyclegan",
+  "label": "real",
+  "p_ai": 0.0055,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/cyclegan_ai.png",
+  "generator": "cyclegan",
+  "label": "ai",
+  "p_ai": 0.0615,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/stargan_real.png",
+  "generator": "stargan",
+  "label": "real",
+  "p_ai": 0.0055,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/stargan_ai.png",
+  "generator": "stargan",
+  "label": "ai",
+  "p_ai": 0.9922,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/gaugan_real.png",
+  "generator": "gaugan",
+  "label": "real",
+  "p_ai": 0.0071,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/gaugan_ai.png",
+  "generator": "gaugan",
+  "label": "ai",
+  "p_ai": 0.5356,
+  "width": 256,
+  "height": 256
+ },
+ {
+  "file": "samples/whichfaceisreal_real.jpeg",
+  "generator": "whichfaceisreal",
+  "label": "real",
+  "p_ai": 0.0056,
+  "width": 1024,
+  "height": 1024
+ },
+ {
+  "file": "samples/whichfaceisreal_ai.jpeg",
+  "generator": "whichfaceisreal",
+  "label": "ai",
+  "p_ai": 0.1354,
+  "width": 1024,
+  "height": 1024
+ },
+ {
+  "file": "samples/crn_real.png",
+  "generator": "crn",
+  "label": "real",
+  "p_ai": 0.0057,
+  "width": 512,
+  "height": 256
+ },
+ {
+  "file": "samples/crn_ai.png",
+  "generator": "crn",
+  "label": "ai",
+  "p_ai": 0.9934,
+  "width": 512,
+  "height": 256
+ },
+ {
+  "file": "samples/imle_real.png",
+  "generator": "imle",
+  "label": "real",
+  "p_ai": 0.0055,
+  "width": 512,
+  "height": 256
+ },
+ {
+  "file": "samples/imle_ai.png",
+  "generator": "imle",
+  "label": "ai",
+  "p_ai": 0.9861,
+  "width": 512,
+  "height": 256
+ },
+ {
+  "file": "samples/deepfake_real.png",
+  "generator": "deepfake",
+  "label": "real",
+  "p_ai": 0.0059,
+  "width": 256,
+  "height": 288
+ },
+ {
+  "file": "samples/deepfake_ai.png",
+  "generator": "deepfake",
+  "label": "ai",
+  "p_ai": 0.5015,
+  "width": 256,
+  "height": 300
+ },
+ {
+  "file": "samples/seeingdark_real.png",
+  "generator": "seeingdark",
+  "label": "real",
+  "p_ai": 0.0095,
+  "width": 4256,
+  "height": 2848
+ },
+ {
+  "file": "samples/seeingdark_ai.png",
+  "generator": "seeingdark",
+  "label": "ai",
+  "p_ai": 0.9847,
+  "width": 6030,
+  "height": 4032
+ },
+ {
+  "file": "samples/san_real.png",
+  "generator": "san",
+  "label": "real",
+  "p_ai": 0.0051,
+  "width": 481,
+  "height": 321
+ },
+ {
+  "file": "samples/san_ai.png",
+  "generator": "san",
+  "label": "ai",
+  "p_ai": 0.0064,
+  "width": 1024,
+  "height": 768
+ }
+]

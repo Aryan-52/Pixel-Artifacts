@@ -1,0 +1,294 @@
+﻿Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:302
++ ... tch {} } }; & ".venv\Scripts\python.exe" -u scripts\eval_fullscan.py  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a 
+HF_TOKEN to enable higher rate limits and faster downloads.
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+5120/90329 images, 67s
+10240/90329 images, 141s
+15360/90329 images, 221s
+20480/90329 images, 285s
+25600/90329 images, 342s
+30720/90329 images, 395s
+35840/90329 images, 454s
+40960/90329 images, 533s
+46080/90329 images, 614s
+51200/90329 images, 679s
+Traceback (most recent call last):
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 120, in <module>
+    main()
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\ImageOps.py", line 
+802, in exif_transpose
+    return image.copy()
+           ^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\ImageOps.py", line 
+802, in exif_transpose
+    return image.copy()
+           ^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 88, in main
+    for i, x in enumerate(pool.map(load, rows[a:a + IMAGE_CHUNK]), start=a):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 
+619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 
+317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 
+456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 
+401, in __get_result
+    raise self._exception
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\ImageOps.py", line 
+802, in exif_transpose
+    return image.copy()
+           ^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\ImageOps.py", line 
+802, in exif_transpose
+    return image.copy()
+           ^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\ImageOps.py", line 
+802, in exif_transpose
+    return image.copy()
+           ^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\backend\app\engine.py", line 159, in prepare
+    img = ImageOps.exif_transpose(img).convert("RGB")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1079, in convert
+    return self.copy()
+           ^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\.venv\Lib\site-packages\PIL\Image.py", line 
+1363, in copy
+    return self._new(self.im.copy())
+                     ^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", 
+line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 60, in load
+    full = eng.prepare(decode((root / r["relpath"]).read_bytes(), 10**9))[0]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ARYAN\Projects\Major 
+Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1020, in 
+read_bytes
+    return f.read()
+           ^^^^^^^^
+MemoryError

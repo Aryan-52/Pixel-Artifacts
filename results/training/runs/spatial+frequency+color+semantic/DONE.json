@@ -1,0 +1,12 @@
+{
+ "active": [
+  "spatial",
+  "frequency",
+  "color",
+  "semantic"
+ ],
+ "best_epoch": 14,
+ "test_acc": 0.8080682837184071,
+ "test_auc": 0.9121359697830808,
+ "finished": "2026-11-01T03:55:20.542083"
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Integrity record for the immutable trained artifact and the vendored training script.",
+  "bundle_file": "five_pillar_detector_final.pth",
+  "bundle_sha256": "9cd68987ed6d8fe9855c6c5a024996d635a65cf5d89bda635915144f26a12430",
+  "script_file": "backend/app/model/vendor/five_pillar_detector_v3.py",
+  "script_sha256": "3b77983fd25aab0ec591ecc3eae7685837c68cc9de5b18cd2bc4ae5512abb4b7",
+  "code_version": "fp-v3.0",
+  "feature_code_hash": "369cfa92c5a260ea",
+  "param_count": 1654534,
+  "dims": {
+    "spatial": 1952,
+    "frequency": 408,
+    "color": 133,
+    "physical": 89,
+    "semantic": 512
+  },
+  "required_python": ">=3.11 (3.12 used for training; affects the feature-code hash)",
+  "handoff_files": {
+    "MANIFEST.txt": "d4e7b9fee6ed8e8180f5bd8fac4152166d777fcbc6c690aa65938a399aba7e56",
+    "config.json": "9ae8e15672d8b9682b286743b3f014959d9f0bb00d16dcd9854dcdbd28768c8a",
+    "dataset_audit_train.json": "c4a16735b2878d8005671b89b6af38da976b26a339ddd2b3afc73733555f8e61",
+    "dataset_audit_val.json": "2f719147887c159335ea20b8b226494be7533ef8cdf3432fc375757669ccaaa9",
+    "final_validation_report.json": "dc0af02b533208ce9e78f0b76b5b75a6e4e9d42057fb78dccef765cfcd376528",
+    "training_history.csv": "1e2c029a3ba0f3bca4b77941c599a18523b078ece0f65335d13ccd31f3ee6a81"
+  }
+}

@@ -1,0 +1,5 @@
+3 runs: ['spatial+physical+semantic', 'physical+semantic', 'spatial+semantic']
+[spatial+physical+semantic] already done
+[physical+semantic] already done
+[spatial+semantic] already done
+All requested runs done.

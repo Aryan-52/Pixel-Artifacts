@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 138, in <module>
+    main()
+  File "D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\scripts\eval_fullscan.py", line 129, in main
+    ckpt.unlink(missing_ok=True)
+  File "D:\ARYAN\Projects\Major Project\Implementation\Shared_Resources\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\testing\\eval_fullscan_ckpt_fp-v4.1.npz'

@@ -1,0 +1,15 @@
+train-only standardisation stats for the new columns...
+train: written
+val: written
+test: written
+{
+ "model_version": "fp-v4.2",
+ "feature_code_hash": "369cfa92c5a260ea+spatial_ft:6cdca8f1329a+semantic:ViT-L-14/openai",
+ "dims": {
+  "spatial": 1952,
+  "frequency": 408,
+  "color": 133,
+  "physical": 89,
+  "semantic": 768
+ }
+}

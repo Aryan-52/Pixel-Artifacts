@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# front end: dependencies and build output are recreated by `npm install` / `npm run build`
+frontend/node_modules/
+frontend/dist/
+
+# images uploaded to the app (private, deleted after the job expires)
+results/app_jobs/
+
+# weights, caches and large outputs stay out of git (checksums/manifests are committed)
+*.pth
+*.pt
+*.npz
+*.npy
+*.memmap
+results/training/feature_cache/
+results/**/*.csv
+!results/**/summary*.csv
+!results/ablation/*.csv
+
+# ... except the packaged models the app needs (all < 30 MB; SHA-256 in each CHECKSUMS.json)
+!models/**/*.pth
+!models/**/*.npz
+
+# internal team comparison, not for the public repo
+docs/reports/

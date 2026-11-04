@@ -1,0 +1,13 @@
+Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+resuming at image 51200
+56322/90329 images, 398s
+61460/90329 images, 492s
+66580/90329 images, 560s
+71700/90329 images, 629s
+76820/90329 images, 706s
+81940/90329 images, 762s
+87060/90329 images, 819s
+90329/90329 images, 968s

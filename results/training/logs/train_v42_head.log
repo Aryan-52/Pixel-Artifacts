@@ -1,0 +1,14 @@
+1 runs: ['spatial+frequency+color+physical+semantic']
+[full] 1,440,060 rows | 22,501 batches/epoch | dims {'spatial': 1952, 'frequency': 408, 'color': 133, 'physical': 89, 'semantic': 768}
+[full] epoch 1 batch 19456/22501 | loss 0.0659 | checkpoint 04:06:11
+[full] epoch 1/50 | val loss 0.00715 | acc 0.9999 | AUC 1.0000 | 343s | patience 0 *best*
+[full] epoch 2/50 | val loss 0.01173 | acc 0.9999 | AUC 1.0000 | 279s | patience 1
+[full] epoch 3/50 | val loss 0.00975 | acc 0.9999 | AUC 1.0000 | 260s | patience 2
+[full] epoch 4/50 | val loss 0.00900 | acc 0.9999 | AUC 1.0000 | 261s | patience 3
+[full] epoch 5/50 | val loss 0.00897 | acc 0.9999 | AUC 1.0000 | 273s | patience 4
+[full] epoch 6/50 | val loss 0.01015 | acc 1.0000 | AUC 1.0000 | 285s | patience 5
+[full] epoch 7/50 | val loss 0.00884 | acc 1.0000 | AUC 1.0000 | 284s | patience 6
+[full] epoch 8/50 | val loss 0.01151 | acc 1.0000 | AUC 1.0000 | 269s | patience 7
+[full] epoch 9/50 | val loss 0.01076 | acc 1.0000 | AUC 1.0000 | 265s | patience 8
+[full] TEST acc 0.7412 | AUC 0.9370 | real 0.997 fake 0.485
+All requested runs done.

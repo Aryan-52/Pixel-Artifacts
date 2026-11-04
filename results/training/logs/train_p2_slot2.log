@@ -1,0 +1,177 @@
+5 runs: ['frequency', 'physical', 'spatial+frequency+color+physical', 'spatial+frequency+physical+semantic', 'frequency+color+physical+semantic']
+[frequency] 1,440,060 rows | 22,501 batches/epoch | dims {'frequency': 408}
+[frequency] epoch 1/50 | val loss 0.39367 | acc 0.8236 | AUC 0.9123 | 223s | patience 0 *best*
+[frequency] epoch 2/50 | val loss 0.36933 | acc 0.8454 | AUC 0.9243 | 229s | patience 0 *best*
+[frequency] epoch 3/50 | val loss 0.35924 | acc 0.8481 | AUC 0.9266 | 190s | patience 0 *best*
+[frequency] epoch 4/50 | val loss 0.35181 | acc 0.8479 | AUC 0.9281 | 206s | patience 0 *best*
+[frequency] epoch 5/50 | val loss 0.35818 | acc 0.8490 | AUC 0.9280 | 209s | patience 1
+[frequency] epoch 6/50 | val loss 0.35214 | acc 0.8487 | AUC 0.9304 | 208s | patience 2
+[frequency] epoch 7/50 | val loss 0.33842 | acc 0.8522 | AUC 0.9318 | 215s | patience 0 *best*
+[frequency] epoch 8/50 | val loss 0.35028 | acc 0.8489 | AUC 0.9286 | 240s | patience 1
+[frequency] epoch 9/50 | val loss 0.34729 | acc 0.8487 | AUC 0.9305 | 231s | patience 2
+[frequency] epoch 10/50 | val loss 0.34067 | acc 0.8545 | AUC 0.9339 | 210s | patience 3
+[frequency] epoch 11/50 | val loss 0.34642 | acc 0.8511 | AUC 0.9299 | 220s | patience 4
+[frequency] epoch 12/50 | val loss 0.34685 | acc 0.8568 | AUC 0.9342 | 214s | patience 5
+[frequency] epoch 13/50 | val loss 0.33939 | acc 0.8573 | AUC 0.9345 | 218s | patience 6
+[frequency] epoch 14/50 | val loss 0.34084 | acc 0.8555 | AUC 0.9347 | 201s | patience 7
+[frequency] epoch 15/50 | val loss 0.33968 | acc 0.8557 | AUC 0.9354 | 204s | patience 8
+[frequency] TEST acc 0.6287 | AUC 0.6743 | real 0.481 fake 0.776
+[physical] 1,440,060 rows | 22,501 batches/epoch | dims {'physical': 89}
+[physical] epoch 1/50 | val loss 0.61927 | acc 0.6659 | AUC 0.7225 | 195s | patience 0 *best*
+[physical] epoch 2/50 | val loss 0.61081 | acc 0.6689 | AUC 0.7358 | 188s | patience 0 *best*
+[physical] epoch 3/50 | val loss 0.60691 | acc 0.6714 | AUC 0.7431 | 218s | patience 0 *best*
+[physical] epoch 4/50 | val loss 0.60803 | acc 0.6680 | AUC 0.7338 | 201s | patience 1
+[physical] epoch 5/50 | val loss 0.59735 | acc 0.6824 | AUC 0.7519 | 194s | patience 0 *best*
+[physical] epoch 6/50 | val loss 0.59580 | acc 0.6824 | AUC 0.7615 | 176s | patience 0 *best*
+[physical] epoch 7/50 | val loss 0.58771 | acc 0.6911 | AUC 0.7648 | 184s | patience 0 *best*
+[physical] epoch 8/50 | val loss 0.58147 | acc 0.6926 | AUC 0.7721 | 178s | patience 0 *best*
+[physical] epoch 9/50 | val loss 0.59451 | acc 0.6842 | AUC 0.7652 | 196s | patience 1
+[physical] epoch 10/50 | val loss 0.58873 | acc 0.6879 | AUC 0.7736 | 190s | patience 2
+[physical] epoch 11/50 | val loss 0.57633 | acc 0.6960 | AUC 0.7817 | 183s | patience 0 *best*
+[physical] epoch 12/50 | val loss 0.57433 | acc 0.7017 | AUC 0.7897 | 184s | patience 0 *best*
+[physical] epoch 13/50 | val loss 0.57463 | acc 0.6968 | AUC 0.7839 | 179s | patience 1
+[physical] epoch 14/50 | val loss 0.56634 | acc 0.7084 | AUC 0.7858 | 170s | patience 0 *best*
+[physical] epoch 15/50 | val loss 0.56202 | acc 0.7067 | AUC 0.7980 | 181s | patience 0 *best*
+[physical] epoch 16/50 | val loss 0.56948 | acc 0.7052 | AUC 0.7984 | 199s | patience 1
+[physical] epoch 17/50 | val loss 0.58422 | acc 0.6833 | AUC 0.7888 | 195s | patience 2
+[physical] epoch 18/50 | val loss 0.55191 | acc 0.7187 | AUC 0.8093 | 183s | patience 0 *best*
+[physical] epoch 19/50 | val loss 0.55593 | acc 0.7137 | AUC 0.8089 | 186s | patience 1
+[physical] epoch 20/50 | val loss 0.55561 | acc 0.7152 | AUC 0.8100 | 182s | patience 2
+[physical] epoch 21/50 | val loss 0.54791 | acc 0.7199 | AUC 0.8091 | 170s | patience 0 *best*
+[physical] epoch 22/50 | val loss 0.55410 | acc 0.7185 | AUC 0.7999 | 166s | patience 1
+[physical] epoch 23/50 | val loss 0.54965 | acc 0.7165 | AUC 0.8164 | 159s | patience 2
+[physical] epoch 24/50 | val loss 0.54419 | acc 0.7249 | AUC 0.8163 | 167s | patience 0 *best*
+[physical] epoch 25/50 | val loss 0.54241 | acc 0.7236 | AUC 0.8177 | 163s | patience 0 *best*
+[physical] epoch 26/50 | val loss 0.53703 | acc 0.7303 | AUC 0.8113 | 157s | patience 0 *best*
+[physical] epoch 27/50 | val loss 0.55262 | acc 0.7199 | AUC 0.8115 | 155s | patience 1
+[physical] epoch 28/50 | val loss 0.54800 | acc 0.7210 | AUC 0.8186 | 154s | patience 2
+[physical] epoch 29/50 | val loss 0.55071 | acc 0.7195 | AUC 0.8192 | 156s | patience 3
+[physical] epoch 30/50 | val loss 0.54038 | acc 0.7269 | AUC 0.8192 | 159s | patience 4
+[physical] epoch 31/50 | val loss 0.53944 | acc 0.7338 | AUC 0.8165 | 154s | patience 5
+[physical] epoch 32/50 | val loss 0.53745 | acc 0.7319 | AUC 0.8206 | 146s | patience 6
+[physical] epoch 33/50 | val loss 0.54076 | acc 0.7244 | AUC 0.8220 | 160s | patience 7
+[physical] epoch 34/50 | val loss 0.55141 | acc 0.7212 | AUC 0.8075 | 156s | patience 8
+[physical] TEST acc 0.5653 | AUC 0.6105 | real 0.507 fake 0.624
+[spatial+frequency+color+physical] 1,440,060 rows | 22,501 batches/epoch | dims {'spatial': 1952, 'frequency': 408, 'color': 133, 'physical': 89}
+[spatial+frequency+color+physical] epoch 1/50 | val loss 0.05265 | acc 0.9831 | AUC 0.9988 | 298s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 2/50 | val loss 0.04918 | acc 0.9828 | AUC 0.9987 | 294s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 3/50 | val loss 0.04212 | acc 0.9890 | AUC 0.9994 | 289s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 4/50 | val loss 0.03124 | acc 0.9902 | AUC 0.9996 | 288s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 5/50 | val loss 0.03601 | acc 0.9902 | AUC 0.9995 | 287s | patience 1
+[spatial+frequency+color+physical] epoch 6/50 | val loss 0.03073 | acc 0.9913 | AUC 0.9997 | 284s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 7/50 | val loss 0.02981 | acc 0.9921 | AUC 0.9997 | 288s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 8/50 | val loss 0.03307 | acc 0.9906 | AUC 0.9997 | 283s | patience 1
+[spatial+frequency+color+physical] epoch 9/50 | val loss 0.03199 | acc 0.9910 | AUC 0.9996 | 281s | patience 2
+[spatial+frequency+color+physical] epoch 10/50 | val loss 0.03044 | acc 0.9910 | AUC 0.9998 | 295s | patience 3
+[spatial+frequency+color+physical] epoch 11/50 | val loss 0.02682 | acc 0.9918 | AUC 0.9998 | 283s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 12/50 | val loss 0.03276 | acc 0.9921 | AUC 0.9998 | 277s | patience 1
+[spatial+frequency+color+physical] epoch 13/50 | val loss 0.03187 | acc 0.9925 | AUC 0.9994 | 283s | patience 2
+[spatial+frequency+color+physical] epoch 14/50 | val loss 0.02559 | acc 0.9929 | AUC 0.9997 | 276s | patience 0 *best*
+[spatial+frequency+color+physical] epoch 15/50 | val loss 0.02745 | acc 0.9923 | AUC 0.9998 | 294s | patience 1
+[spatial+frequency+color+physical] epoch 16/50 | val loss 0.03253 | acc 0.9911 | AUC 0.9996 | 284s | patience 2
+[spatial+frequency+color+physical] epoch 17/50 | val loss 0.02976 | acc 0.9921 | AUC 0.9996 | 293s | patience 3
+[spatial+frequency+color+physical] epoch 18/50 | val loss 0.02809 | acc 0.9930 | AUC 0.9998 | 281s | patience 4
+[spatial+frequency+color+physical] epoch 19/50 | val loss 0.02908 | acc 0.9925 | AUC 0.9998 | 281s | patience 5
+[spatial+frequency+color+physical] epoch 20/50 | val loss 0.02963 | acc 0.9911 | AUC 0.9998 | 285s | patience 6
+[spatial+frequency+color+physical] epoch 21 batch 18944/22501 | loss 0.1644 | checkpoint 01:17:33
+[spatial+frequency+color+physical] epoch 21/50 | val loss 0.02819 | acc 0.9925 | AUC 0.9996 | 361s | patience 7
+[spatial+frequency+color+physical] epoch 22 batch 20480/22501 | loss 0.1625 | checkpoint 01:23:33
+[spatial+frequency+color+physical] epoch 22/50 | val loss 0.02926 | acc 0.9931 | AUC 0.9998 | 335s | patience 8
+[spatial+frequency+color+physical] TEST acc 0.7412 | AUC 0.8540 | real 0.962 fake 0.520
+[spatial+frequency+physical+semantic] 1,440,060 rows | 22,501 batches/epoch | dims {'spatial': 1952, 'frequency': 408, 'physical': 89, 'semantic': 512}
+[spatial+frequency+physical+semantic] epoch 1 batch 19456/22501 | loss 0.1677 | checkpoint 01:29:08
+[spatial+frequency+physical+semantic] epoch 1/50 | val loss 0.01877 | acc 0.9958 | AUC 0.9999 | 348s | patience 0 *best*
+[spatial+frequency+physical+semantic] epoch 2 batch 19456/22501 | loss 0.1493 | checkpoint 01:34:55
+[spatial+frequency+physical+semantic] epoch 2/50 | val loss 0.01307 | acc 0.9963 | AUC 1.0000 | 348s | patience 0 *best*
+[spatial+frequency+physical+semantic] epoch 3 batch 19456/22501 | loss 0.1355 | checkpoint 01:40:43
+[spatial+frequency+physical+semantic] epoch 3/50 | val loss 0.01399 | acc 0.9972 | AUC 1.0000 | 349s | patience 1
+[spatial+frequency+physical+semantic] epoch 4 batch 19456/22501 | loss 0.1270 | checkpoint 01:46:35
+[spatial+frequency+physical+semantic] epoch 4/50 | val loss 0.01373 | acc 0.9979 | AUC 1.0000 | 351s | patience 2
+[spatial+frequency+physical+semantic] epoch 5 batch 18944/22501 | loss 0.1224 | checkpoint 01:52:29
+[spatial+frequency+physical+semantic] epoch 5/50 | val loss 0.01115 | acc 0.9983 | AUC 1.0000 | 365s | patience 0 *best*
+[spatial+frequency+physical+semantic] epoch 6 batch 18432/22501 | loss 0.1188 | checkpoint 01:58:33
+[spatial+frequency+physical+semantic] epoch 6/50 | val loss 0.01447 | acc 0.9984 | AUC 1.0000 | 372s | patience 1
+[spatial+frequency+physical+semantic] epoch 7 batch 18432/22501 | loss 0.1164 | checkpoint 02:04:45
+[spatial+frequency+physical+semantic] epoch 7/50 | val loss 0.01360 | acc 0.9989 | AUC 1.0000 | 372s | patience 2
+[spatial+frequency+physical+semantic] epoch 8 batch 17408/22501 | loss 0.1143 | checkpoint 02:10:53
+[spatial+frequency+physical+semantic] epoch 8/50 | val loss 0.01436 | acc 0.9982 | AUC 1.0000 | 392s | patience 3
+[spatial+frequency+physical+semantic] epoch 9 batch 17920/22501 | loss 0.1122 | checkpoint 02:17:28
+[spatial+frequency+physical+semantic] epoch 9/50 | val loss 0.01401 | acc 0.9988 | AUC 1.0000 | 383s | patience 4
+[spatial+frequency+physical+semantic] epoch 10 batch 17408/22501 | loss 0.1107 | checkpoint 02:23:48
+[spatial+frequency+physical+semantic] epoch 10/50 | val loss 0.01230 | acc 0.9987 | AUC 1.0000 | 387s | patience 5
+[spatial+frequency+physical+semantic] epoch 11 batch 17920/22501 | loss 0.1090 | checkpoint 02:30:21
+[spatial+frequency+physical+semantic] epoch 11/50 | val loss 0.01393 | acc 0.9989 | AUC 1.0000 | 386s | patience 6
+[spatial+frequency+physical+semantic] epoch 12 batch 17408/22501 | loss 0.1084 | checkpoint 02:36:45
+[spatial+frequency+physical+semantic] epoch 12/50 | val loss 0.01344 | acc 0.9988 | AUC 1.0000 | 396s | patience 7
+[spatial+frequency+physical+semantic] epoch 13 batch 16896/22501 | loss 0.1064 | checkpoint 02:43:17
+[spatial+frequency+physical+semantic] epoch 13/50 | val loss 0.01390 | acc 0.9984 | AUC 1.0000 | 402s | patience 8
+[spatial+frequency+physical+semantic] TEST acc 0.8051 | AUC 0.9209 | real 0.970 fake 0.640
+[frequency+color+physical+semantic] 1,440,060 rows | 22,501 batches/epoch | dims {'frequency': 408, 'color': 133, 'physical': 89, 'semantic': 512}
+[frequency+color+physical+semantic] epoch 1 batch 19968/22501 | loss 0.2153 | checkpoint 02:50:02
+[frequency+color+physical+semantic] epoch 1/50 | val loss 0.02904 | acc 0.9918 | AUC 0.9998 | 338s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 2 batch 20992/22501 | loss 0.1977 | checkpoint 02:55:45
+[frequency+color+physical+semantic] epoch 2/50 | val loss 0.02355 | acc 0.9943 | AUC 0.9998 | 329s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 3 batch 20992/22501 | loss 0.1861 | checkpoint 03:01:13
+[frequency+color+physical+semantic] epoch 3/50 | val loss 0.02459 | acc 0.9946 | AUC 0.9999 | 326s | patience 1
+[frequency+color+physical+semantic] epoch 4 batch 20992/22501 | loss 0.1791 | checkpoint 03:06:38
+[frequency+color+physical+semantic] epoch 4/50 | val loss 0.02029 | acc 0.9968 | AUC 0.9999 | 325s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 5 batch 20480/22501 | loss 0.1754 | checkpoint 03:12:00
+[frequency+color+physical+semantic] epoch 5/50 | val loss 0.02201 | acc 0.9956 | AUC 0.9999 | 330s | patience 1
+[frequency+color+physical+semantic] epoch 6 batch 20992/22501 | loss 0.1724 | checkpoint 03:17:31
+[frequency+color+physical+semantic] epoch 6/50 | val loss 0.02159 | acc 0.9958 | AUC 0.9999 | 323s | patience 2
+[frequency+color+physical+semantic] epoch 7 batch 21504/22501 | loss 0.1696 | checkpoint 03:22:58
+[frequency+color+physical+semantic] epoch 7/50 | val loss 0.01733 | acc 0.9960 | AUC 1.0000 | 319s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 8 batch 20992/22501 | loss 0.1680 | checkpoint 03:28:13
+[frequency+color+physical+semantic] epoch 8/50 | val loss 0.02343 | acc 0.9963 | AUC 0.9999 | 323s | patience 1
+[frequency+color+physical+semantic] epoch 9 batch 20992/22501 | loss 0.1662 | checkpoint 03:33:37
+[frequency+color+physical+semantic] epoch 9/50 | val loss 0.02040 | acc 0.9951 | AUC 0.9999 | 324s | patience 2
+[frequency+color+physical+semantic] epoch 10 batch 20992/22501 | loss 0.1652 | checkpoint 03:39:00
+[frequency+color+physical+semantic] epoch 10/50 | val loss 0.01845 | acc 0.9972 | AUC 0.9999 | 323s | patience 3
+[frequency+color+physical+semantic] epoch 11 batch 20992/22501 | loss 0.1634 | checkpoint 03:44:24
+[frequency+color+physical+semantic] epoch 11/50 | val loss 0.01918 | acc 0.9964 | AUC 1.0000 | 323s | patience 4
+[frequency+color+physical+semantic] epoch 12 batch 20992/22501 | loss 0.1631 | checkpoint 03:49:48
+[frequency+color+physical+semantic] epoch 12/50 | val loss 0.01749 | acc 0.9964 | AUC 0.9999 | 325s | patience 5
+[frequency+color+physical+semantic] epoch 13 batch 21504/22501 | loss 0.1611 | checkpoint 03:55:18
+[frequency+color+physical+semantic] epoch 13/50 | val loss 0.01668 | acc 0.9967 | AUC 0.9999 | 324s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 14 batch 20992/22501 | loss 0.1605 | checkpoint 04:00:39
+[frequency+color+physical+semantic] epoch 14/50 | val loss 0.01691 | acc 0.9978 | AUC 0.9999 | 327s | patience 1
+[frequency+color+physical+semantic] epoch 15 batch 21504/22501 | loss 0.1593 | checkpoint 04:06:08
+[frequency+color+physical+semantic] epoch 15/50 | val loss 0.01885 | acc 0.9970 | AUC 1.0000 | 322s | patience 2
+[frequency+color+physical+semantic] epoch 16 batch 21504/22501 | loss 0.1591 | checkpoint 04:11:29
+[frequency+color+physical+semantic] epoch 16/50 | val loss 0.01715 | acc 0.9970 | AUC 1.0000 | 321s | patience 3
+[frequency+color+physical+semantic] epoch 17 batch 21504/22501 | loss 0.1576 | checkpoint 04:16:50
+[frequency+color+physical+semantic] epoch 17/50 | val loss 0.01653 | acc 0.9979 | AUC 0.9998 | 321s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 18 batch 21504/22501 | loss 0.1562 | checkpoint 04:22:07
+[frequency+color+physical+semantic] epoch 18/50 | val loss 0.01597 | acc 0.9968 | AUC 1.0000 | 317s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 19 batch 21504/22501 | loss 0.1557 | checkpoint 04:27:24
+[frequency+color+physical+semantic] epoch 19/50 | val loss 0.01797 | acc 0.9971 | AUC 1.0000 | 317s | patience 1
+[frequency+color+physical+semantic] epoch 20 batch 21504/22501 | loss 0.1544 | checkpoint 04:32:43
+[frequency+color+physical+semantic] epoch 20/50 | val loss 0.01547 | acc 0.9970 | AUC 0.9999 | 319s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 21 batch 21504/22501 | loss 0.1543 | checkpoint 04:38:00
+[frequency+color+physical+semantic] epoch 21/50 | val loss 0.01934 | acc 0.9968 | AUC 1.0000 | 316s | patience 1
+[frequency+color+physical+semantic] epoch 22 batch 22016/22501 | loss 0.1529 | checkpoint 04:43:20
+[frequency+color+physical+semantic] epoch 22/50 | val loss 0.01966 | acc 0.9956 | AUC 1.0000 | 313s | patience 2
+[frequency+color+physical+semantic] epoch 23 batch 21504/22501 | loss 0.1520 | checkpoint 04:48:31
+[frequency+color+physical+semantic] epoch 23/50 | val loss 0.01556 | acc 0.9974 | AUC 1.0000 | 317s | patience 3
+[frequency+color+physical+semantic] epoch 24 batch 21504/22501 | loss 0.1513 | checkpoint 04:53:46
+[frequency+color+physical+semantic] epoch 24/50 | val loss 0.01465 | acc 0.9978 | AUC 0.9997 | 316s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 25 batch 21504/22501 | loss 0.1501 | checkpoint 04:59:02
+[frequency+color+physical+semantic] epoch 25/50 | val loss 0.01364 | acc 0.9982 | AUC 0.9997 | 316s | patience 0 *best*
+[frequency+color+physical+semantic] epoch 26 batch 22016/22501 | loss 0.1492 | checkpoint 05:04:22
+[frequency+color+physical+semantic] epoch 26/50 | val loss 0.01566 | acc 0.9968 | AUC 1.0000 | 313s | patience 1
+[frequency+color+physical+semantic] epoch 27 batch 21504/22501 | loss 0.1483 | checkpoint 05:09:30
+[frequency+color+physical+semantic] epoch 27/50 | val loss 0.01548 | acc 0.9978 | AUC 1.0000 | 315s | patience 2
+[frequency+color+physical+semantic] epoch 28 batch 20992/22501 | loss 0.1464 | checkpoint 05:14:46
+[frequency+color+physical+semantic] epoch 28/50 | val loss 0.01597 | acc 0.9980 | AUC 0.9998 | 325s | patience 3
+[frequency+color+physical+semantic] epoch 29 batch 20992/22501 | loss 0.1458 | checkpoint 05:20:10
+[frequency+color+physical+semantic] epoch 29/50 | val loss 0.01885 | acc 0.9968 | AUC 1.0000 | 324s | patience 4
+[frequency+color+physical+semantic] epoch 30 batch 20992/22501 | loss 0.1452 | checkpoint 05:25:33
+[frequency+color+physical+semantic] epoch 30/50 | val loss 0.01617 | acc 0.9970 | AUC 0.9997 | 323s | patience 5
+[frequency+color+physical+semantic] epoch 31 batch 20992/22501 | loss 0.1436 | checkpoint 05:31:01
+[frequency+color+physical+semantic] epoch 31/50 | val loss 0.01378 | acc 0.9976 | AUC 0.9997 | 328s | patience 6
+[frequency+color+physical+semantic] epoch 32 batch 21504/22501 | loss 0.1431 | checkpoint 05:36:30
+[frequency+color+physical+semantic] epoch 32/50 | val loss 0.01723 | acc 0.9966 | AUC 1.0000 | 320s | patience 7
+[frequency+color+physical+semantic] epoch 33 batch 20992/22501 | loss 0.1418 | checkpoint 05:41:47
+[frequency+color+physical+semantic] epoch 33/50 | val loss 0.01732 | acc 0.9966 | AUC 1.0000 | 325s | patience 8
+[frequency+color+physical+semantic] TEST acc 0.7748 | AUC 0.8695 | real 0.971 fake 0.578
+All requested runs done.

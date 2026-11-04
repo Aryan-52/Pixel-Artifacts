@@ -1,0 +1,77 @@
+{
+ "pillars": [
+  "spatial",
+  "frequency",
+  "color",
+  "physical",
+  "semantic"
+ ],
+ "dims": {
+  "spatial": 1952,
+  "frequency": 408,
+  "color": 133,
+  "physical": 89,
+  "semantic": 512
+ },
+ "offsets": {
+  "spatial": [
+   0,
+   1952
+  ],
+  "frequency": [
+   1952,
+   2360
+  ],
+  "color": [
+   2360,
+   2493
+  ],
+  "physical": [
+   2493,
+   2582
+  ],
+  "semantic": [
+   2582,
+   3094
+  ]
+ },
+ "feature_clip": 10.0,
+ "dtype": "float16",
+ "feature_code_hash": "369cfa92c5a260ea+spatial_ft:1401e1c80b37",
+ "train_sig": "9b62eada1291",
+ "splits": {
+  "train": {
+   "sig": "9b62eada1291",
+   "n_entries": 1440060,
+   "n_rows": 1440060,
+   "n_dropped": 0,
+   "dropped": [],
+   "n_real": 719940,
+   "n_fake": 720120
+  },
+  "val": {
+   "sig": "77e21cc68c19",
+   "n_entries": 7569,
+   "n_rows": 7569,
+   "n_dropped": 0,
+   "dropped": [],
+   "n_real": 3569,
+   "n_fake": 4000
+  },
+  "test": {
+   "sig": "27bb1f8ef31c",
+   "n_entries": 90329,
+   "n_rows": 90329,
+   "n_dropped": 0,
+   "dropped": [],
+   "n_real": 45169,
+   "n_fake": 45160
+  }
+ },
+ "model_version": "fp-v4.1",
+ "spatial_encoder": {
+  "finetuned_checkpoint": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\spatial_ft\\best.pth",
+  "sha256": "1401e1c80b371e939c233403e5cab69bf7d82bd0994e02dd767d4915b47f2bba",
+  "base_store": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\feature_store"
+ }
+}

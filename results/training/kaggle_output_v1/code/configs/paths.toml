@@ -1,0 +1,25 @@
+# Workspace layout. Every path is relative to the workspace root
+# (the `Implementation` folder that contains this repository), unless absolute.
+# Override the root with the PIXEL_ARTIFACTS_WORKSPACE environment variable.
+#
+# These entries describe where files ARE today. When the reorganisation in
+# docs/architecture/WORKSPACE_ORGANIZATION.md is applied, update only this file.
+
+[datasets]
+cnn_root        = "DataSet/Our Dataset/CNN"
+progan_train    = "DataSet/Our Dataset/CNN/progan_train"        # extracted (D-14); 7z volumes no longer in the workspace
+progan_val      = "DataSet/Our Dataset/CNN/progan_val"         # target: .../CNN/ProGAN_Validation
+cnn_synth_test  = "DataSet/Our Dataset/CNN/CNN_synth_testset_1" # target: .../CNN/CNN_Synth_Test
+manifests       = "DataSet/Our Dataset/CNN/manifests"
+
+[models]
+fp_v3_dir       = "five-pillar-detector/model"                 # target: Pixel-Artifacts/models/fp-v3.0
+fp_v3_bundle    = "five-pillar-detector/model/five_pillar_detector_final.pth"
+fp_v3_bundle_sha256 = "9cd68987ed6d8fe9855c6c5a024996d635a65cf5d89bda635915144f26a12430"
+fp_v4_dir       = "Pixel-Artifacts/models/fp-v4.0"
+
+[outputs]
+results         = "Pixel-Artifacts/results"
+feature_cache   = "Pixel-Artifacts/results/training/feature_cache"   # raw per-shard features (local only)
+feature_store   = "Pixel-Artifacts/results/training/feature_store"   # standardised fp16 matrices (uploaded to Kaggle)
+pretrained      = "Shared_Resources/model_weights/pretrained_cache"

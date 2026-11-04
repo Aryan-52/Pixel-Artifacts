@@ -1,0 +1,6 @@
+[2026-11-01 22.51.43] waiting for PID 39564
+[2026-11-02 00.00.45] start (1/3): scripts/build_ft_store.py -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\logs\train_ft2_build_ft_store.log
+[2026-11-02 00.41.25] exit code 0: scripts/build_ft_store.py
+[2026-11-02 00.41.25] start (1/3): --group p1 --store results/training/feature_store_ft --runs results/training/runs_ft -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\logs\train_ft2_group_p1_store_results_training_feature_store_ft_runs_results_training_runs_ft.log
+[2026-11-02 01.41.36] exit code 0: --group p1 --store results/training/feature_store_ft --runs results/training/runs_ft
+[2026-11-02 01.41.36] queue finished

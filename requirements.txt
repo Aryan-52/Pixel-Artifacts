@@ -1,0 +1,15 @@
+# Python 3.12. Versions are the ones every reported result was produced with.
+# For a CUDA GPU, install torch/torchvision from the matching index first, e.g.
+#   pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0
+torchvision==0.25.0
+open_clip_torch==3.3.0
+numpy==2.0.2
+scikit-learn==1.9.1
+pillow==13.0.0
+pandas==2.3.3
+pyarrow==26.0.0
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.33
+pytest==9.2.0

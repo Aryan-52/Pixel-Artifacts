@@ -1,0 +1,50 @@
+﻿Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher 
+rate limits and faster downloads.
+At line:1 char:377
++ ... | Out-Null; & ".venv\Scripts\python.exe" -u scripts\train_attribution ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a 
+HF_TOKEN to enable higher rate limits and faster downloads.
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+features: train-00000-of-00014.parquet
+features: train-00001-of-00014.parquet
+features: train-00002-of-00014.parquet
+features: train-00003-of-00014.parquet
+features: train-00004-of-00014.parquet
+features: train-00005-of-00014.parquet
+features: train-00006-of-00014.parquet
+features: train-00007-of-00014.parquet
+features: train-00008-of-00014.parquet
+features: train-00009-of-00014.parquet
+features: train-00010-of-00014.parquet
+features: train-00011-of-00014.parquet
+features: train-00012-of-00014.parquet
+features: train-00013-of-00014.parquet
+features: validation-00000-of-00004.parquet
+features: validation-00001-of-00004.parquet
+features: validation-00002-of-00004.parquet
+features: validation-00003-of-00004.parquet
+classes: [np.str_('ADM'), np.str_('BigGAN'), np.str_('GLIDE'), np.str_('Midjourney'), np.str_('SD15'), np.str_('VQDM'), np.str_('Wukong'), 'ProGAN'] undecodable: 0
+epoch  1 train 0.5488 val 0.3625 acc 0.8609
+epoch  2 train 0.3144 val 0.3505 acc 0.8838
+epoch  3 train 0.2687 val 0.3614 acc 0.8766
+epoch  4 train 0.2136 val 0.4475 acc 0.8947
+epoch  5 train 0.2366 val 0.3194 acc 0.8905
+epoch  6 train 0.1569 val 0.3613 acc 0.8863
+epoch  7 train 0.1066 val 0.3070 acc 0.9074
+epoch  8 train 0.0908 val 0.3337 acc 0.8972
+epoch  9 train 0.0734 val 0.3035 acc 0.9080
+epoch 10 train 0.1311 val 0.4262 acc 0.8947
+epoch 11 train 0.1980 val 0.4591 acc 0.8917
+epoch 12 train 0.0894 val 0.4765 acc 0.8851
+epoch 13 train 0.0791 val 0.4127 acc 0.9002
+epoch 14 train 0.0780 val 0.4601 acc 0.9056
+epoch 15 train 0.0954 val 0.4149 acc 0.9093
+test acc 0.9087 top2 0.9835 macroF1 0.9084 tau 0.786
+detector on Tiny-GenImage: {"images": 35000, "accuracy": 0.5975428571428572, "auc": 0.8005794220408163, "real_acc": 0.9657142857142857, "fake_acc": 0.22937142857142856, "ai_caught": {"ADM": 0.252, "BigGAN": 0.6396, "GLIDE": 0.1984, "Midjourney": 0.074, "SD15": 0.1428, "VQDM": 0.16, "Wukong": 0.1388}}

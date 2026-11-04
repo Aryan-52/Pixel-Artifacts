@@ -1,0 +1,120 @@
+{
+ "model": "efficientnet_b0",
+ "weights": "IMAGENET1K_V1",
+ "frozen_blocks": 0,
+ "batch_size": 64,
+ "max_epochs": 50,
+ "epoch_samples": 200000,
+ "n_train_images": 720030,
+ "n_val": 7569,
+ "lr": 0.0001,
+ "weight_decay": 0.01,
+ "patience": 3,
+ "seed": 42,
+ "augment": {
+  "downscale": [
+   0.3,
+   0.5,
+   0.9
+  ],
+  "blur": [
+   0.5,
+   0.0,
+   3.0
+  ],
+  "jpeg": [
+   0.8,
+   30,
+   100
+  ],
+  "crop": "random 224",
+  "hflip": 0.5,
+  "fresh_every_epoch": true
+ },
+ "selection": "mean of clean and degraded ProGAN-validation BCE"
+}
+[spatial_ft_v2] epoch 1 batch 1426/3125 | loss 0.2940 | 304 img/s | checkpoint 18:44:46
+[spatial_ft_v2] epoch 1 batch 2371/3125 | loss 0.2427 | 253 img/s | checkpoint 18:49:46
+[spatial_ft_v2] epoch 1/50 | train loss 0.2186 | val loss 0.06270 (clean 0.02116 acc 0.9927, degraded 0.10425 acc 0.9585 AUC 0.9934) | 912s | patience 0 *best*
+[spatial_ft_v2] epoch 2 batch 932/3125 | loss 0.1276 | 199 img/s | checkpoint 18:59:58
+[spatial_ft_v2] epoch 2 batch 1869/3125 | loss 0.1217 | 199 img/s | checkpoint 19:04:58
+[spatial_ft_v2] epoch 2 batch 2818/3125 | loss 0.1163 | 200 img/s | checkpoint 19:09:59
+[spatial_ft_v2] epoch 2/50 | train loss 0.1146 | val loss 0.04307 (clean 0.01307 acc 0.9952, degraded 0.07306 acc 0.9716 AUC 0.9967) | 1029s | patience 0 *best*
+[spatial_ft_v2] epoch 3 batch 960/3125 | loss 0.0938 | 205 img/s | checkpoint 19:17:08
+[spatial_ft_v2] epoch 3 batch 1914/3125 | loss 0.0907 | 204 img/s | checkpoint 19:22:08
+[spatial_ft_v2] epoch 3 batch 2868/3125 | loss 0.0893 | 204 img/s | checkpoint 19:27:09
+[spatial_ft_v2] epoch 3/50 | train loss 0.0887 | val loss 0.03452 (clean 0.00915 acc 0.9967, degraded 0.05990 acc 0.9766 AUC 0.9979) | 1012s | patience 0 *best*
+[spatial_ft_v2] epoch 4 batch 955/3125 | loss 0.0801 | 203 img/s | checkpoint 19:34:00
+[spatial_ft_v2] epoch 4 batch 1915/3125 | loss 0.0796 | 204 img/s | checkpoint 19:39:00
+[spatial_ft_v2] epoch 4 batch 2871/3125 | loss 0.0771 | 204 img/s | checkpoint 19:44:01
+[spatial_ft_v2] epoch 4/50 | train loss 0.0768 | val loss 0.02760 (clean 0.00848 acc 0.9962, degraded 0.04671 acc 0.9820 AUC 0.9987) | 1010s | patience 0 *best*
+[spatial_ft_v2] epoch 5 batch 951/3125 | loss 0.0705 | 203 img/s | checkpoint 19:50:50
+[spatial_ft_v2] epoch 5 batch 1917/3125 | loss 0.0708 | 204 img/s | checkpoint 19:55:50
+[spatial_ft_v2] epoch 5 batch 2884/3125 | loss 0.0688 | 205 img/s | checkpoint 20:00:51
+[spatial_ft_v2] epoch 5/50 | train loss 0.0686 | val loss 0.02626 (clean 0.00607 acc 0.9979, degraded 0.04644 acc 0.9835 AUC 0.9987) | 1006s | patience 0 *best*
+[spatial_ft_v2] epoch 6 batch 966/3125 | loss 0.0623 | 206 img/s | checkpoint 20:07:36
+[spatial_ft_v2] epoch 6 batch 1940/3125 | loss 0.0610 | 207 img/s | checkpoint 20:12:36
+[spatial_ft_v2] epoch 6 batch 2919/3125 | loss 0.0611 | 207 img/s | checkpoint 20:17:37
+[spatial_ft_v2] epoch 6/50 | train loss 0.0608 | val loss 0.02549 (clean 0.00565 acc 0.9983, degraded 0.04532 acc 0.9823 AUC 0.9988) | 996s | patience 0 *best*
+[spatial_ft_v2] epoch 7 batch 963/3125 | loss 0.0595 | 205 img/s | checkpoint 20:24:12
+[spatial_ft_v2] epoch 7 batch 1933/3125 | loss 0.0586 | 206 img/s | checkpoint 20:29:12
+[spatial_ft_v2] epoch 7 batch 2899/3125 | loss 0.0573 | 206 img/s | checkpoint 20:34:13
+[spatial_ft_v2] epoch 7/50 | train loss 0.0570 | val loss 0.02521 (clean 0.00417 acc 0.9984, degraded 0.04626 acc 0.9831 AUC 0.9988) | 1001s | patience 0 *best*
+[spatial_ft_v2] epoch 8 batch 963/3125 | loss 0.0556 | 205 img/s | checkpoint 20:40:53
+[spatial_ft_v2] epoch 8 batch 1931/3125 | loss 0.0558 | 206 img/s | checkpoint 20:45:53
+[spatial_ft_v2] epoch 8 batch 2896/3125 | loss 0.0545 | 206 img/s | checkpoint 20:50:54
+[spatial_ft_v2] epoch 8/50 | train loss 0.0543 | val loss 0.02263 (clean 0.00383 acc 0.9989, degraded 0.04143 acc 0.9830 AUC 0.9990) | 1001s | patience 0 *best*
+[spatial_ft_v2] epoch 9 batch 962/3125 | loss 0.0507 | 205 img/s | checkpoint 20:57:34
+[spatial_ft_v2] epoch 9 batch 1932/3125 | loss 0.0507 | 206 img/s | checkpoint 21:02:35
+[spatial_ft_v2] epoch 9 batch 2902/3125 | loss 0.0509 | 206 img/s | checkpoint 21:07:35
+[spatial_ft_v2] epoch 9/50 | train loss 0.0509 | val loss 0.02356 (clean 0.00371 acc 0.9987, degraded 0.04342 acc 0.9832 AUC 0.9989) | 999s | patience 1
+[spatial_ft_v2] epoch 10 batch 970/3125 | loss 0.0485 | 207 img/s | checkpoint 21:14:14
+[spatial_ft_v2] epoch 10 batch 1938/3125 | loss 0.0486 | 206 img/s | checkpoint 21:19:14
+[spatial_ft_v2] epoch 10 batch 2916/3125 | loss 0.0485 | 207 img/s | checkpoint 21:24:15
+[spatial_ft_v2] epoch 10/50 | train loss 0.0482 | val loss 0.02475 (clean 0.00582 acc 0.9971, degraded 0.04367 acc 0.9836 AUC 0.9990) | 996s | patience 2
+[spatial_ft_v2] epoch 11 batch 964/3125 | loss 0.0460 | 205 img/s | checkpoint 21:30:50
+[spatial_ft_v2] epoch 11 batch 1929/3125 | loss 0.0471 | 205 img/s | checkpoint 21:35:50
+[spatial_ft_v2] epoch 11 batch 2894/3125 | loss 0.0463 | 206 img/s | checkpoint 21:40:50
+[spatial_ft_v2] epoch 11/50 | train loss 0.0465 | val loss 0.02050 (clean 0.00433 acc 0.9987, degraded 0.03667 acc 0.9863 AUC 0.9992) | 1002s | patience 0 *best*
+[spatial_ft_v2] epoch 12 batch 971/3125 | loss 0.0431 | 207 img/s | checkpoint 21:47:32
+[spatial_ft_v2] epoch 12 batch 1950/3125 | loss 0.0438 | 208 img/s | checkpoint 21:52:33
+[spatial_ft_v2] epoch 12 batch 2930/3125 | loss 0.0440 | 208 img/s | checkpoint 21:57:33
+[spatial_ft_v2] epoch 12/50 | train loss 0.0443 | val loss 0.01757 (clean 0.00264 acc 0.9992, degraded 0.03250 acc 0.9873 AUC 0.9994) | 990s | patience 0 *best*
+[spatial_ft_v2] epoch 13 batch 974/3125 | loss 0.0410 | 208 img/s | checkpoint 22:04:03
+[spatial_ft_v2] epoch 13 batch 1907/3125 | loss 0.0424 | 203 img/s | checkpoint 22:09:03
+[spatial_ft_v2] epoch 13 batch 2895/3125 | loss 0.0422 | 206 img/s | checkpoint 22:14:03
+[spatial_ft_v2] epoch 13/50 | train loss 0.0423 | val loss 0.01887 (clean 0.00282 acc 0.9989, degraded 0.03492 acc 0.9878 AUC 0.9993) | 1001s | patience 1
+[spatial_ft_v2] epoch 14 batch 896/3125 | loss 0.0403 | 189 img/s | checkpoint 22:20:46
+[spatial_ft_v2] epoch 14 batch 1192/3125 | loss 0.0400 | 126 img/s | checkpoint 22:25:47
+[spatial_ft_v2] epoch 14 batch 2166/3125 | loss 0.0412 | 153 img/s | checkpoint 22:30:48
+[spatial_ft_v2] epoch 14 batch 3044/3125 | loss 0.0415 | 162 img/s | checkpoint 22:35:48
+[spatial_ft_v2] epoch 14/50 | train loss 0.0414 | val loss 0.01822 (clean 0.00177 acc 0.9996, degraded 0.03468 acc 0.9867 AUC 0.9994) | 1263s | patience 2
+[spatial_ft_v2] epoch 15 batch 856/3125 | loss 0.0392 | 182 img/s | checkpoint 22:41:47
+[spatial_ft_v2] epoch 15 batch 1706/3125 | loss 0.0404 | 182 img/s | checkpoint 22:46:47
+[spatial_ft_v2] epoch 15 batch 2525/3125 | loss 0.0401 | 179 img/s | checkpoint 22:51:48
+[spatial_ft_v2] epoch 15/50 | train loss 0.0403 | val loss 0.01512 (clean 0.00149 acc 0.9995, degraded 0.02875 acc 0.9881 AUC 0.9995) | 1146s | patience 0 *best*
+[spatial_ft_v2] epoch 16 batch 860/3125 | loss 0.0389 | 183 img/s | checkpoint 23:00:54
+[spatial_ft_v2] epoch 16 batch 1730/3125 | loss 0.0387 | 184 img/s | checkpoint 23:05:54
+[spatial_ft_v2] epoch 16 batch 2627/3125 | loss 0.0386 | 187 img/s | checkpoint 23:10:54
+[spatial_ft_v2] epoch 16/50 | train loss 0.0388 | val loss 0.01956 (clean 0.00245 acc 0.9991, degraded 0.03666 acc 0.9867 AUC 0.9993) | 1095s | patience 1
+[spatial_ft_v2] epoch 17 batch 900/3125 | loss 0.0373 | 192 img/s | checkpoint 23:19:09
+[spatial_ft_v2] epoch 17 batch 1774/3125 | loss 0.0370 | 189 img/s | checkpoint 23:24:09
+[spatial_ft_v2] epoch 17 batch 2620/3125 | loss 0.0378 | 186 img/s | checkpoint 23:29:10
+[spatial_ft_v2] epoch 17/50 | train loss 0.0373 | val loss 0.01570 (clean 0.00173 acc 0.9995, degraded 0.02966 acc 0.9901 AUC 0.9995) | 1111s | patience 2
+[spatial_ft_v2] epoch 18 batch 843/3125 | loss 0.0343 | 180 img/s | checkpoint 23:37:40
+[spatial_ft_v2] epoch 18 batch 1680/3125 | loss 0.0360 | 179 img/s | checkpoint 23:42:40
+[spatial_ft_v2] epoch 18 batch 2519/3125 | loss 0.0365 | 179 img/s | checkpoint 23:47:41
+[spatial_ft_v2] epoch 18/50 | train loss 0.0370 | val loss 0.01389 (clean 0.00248 acc 0.9987, degraded 0.02529 acc 0.9905 AUC 0.9996) | 1150s | patience 0 *best*
+[spatial_ft_v2] epoch 19 batch 851/3125 | loss 0.0347 | 181 img/s | checkpoint 23:56:50
+[spatial_ft_v2] epoch 19 batch 1698/3125 | loss 0.0365 | 181 img/s | checkpoint 00:01:50
+[spatial_ft_v2] epoch 19 batch 2539/3125 | loss 0.0364 | 180 img/s | checkpoint 00:06:51
+[spatial_ft_v2] epoch 19/50 | train loss 0.0366 | val loss 0.01757 (clean 0.00436 acc 0.9983, degraded 0.03079 acc 0.9892 AUC 0.9994) | 1140s | patience 1
+[spatial_ft_v2] epoch 20 batch 849/3125 | loss 0.0345 | 181 img/s | checkpoint 00:15:51
+[spatial_ft_v2] epoch 20 batch 1700/3125 | loss 0.0342 | 181 img/s | checkpoint 00:20:51
+[spatial_ft_v2] epoch 20 batch 2539/3125 | loss 0.0345 | 180 img/s | checkpoint 00:25:51
+[spatial_ft_v2] epoch 20/50 | train loss 0.0342 | val loss 0.01488 (clean 0.00267 acc 0.9995, degraded 0.02709 acc 0.9906 AUC 0.9995) | 1150s | patience 2
+[spatial_ft_v2] epoch 21 batch 783/3125 | loss 0.0353 | 167 img/s | checkpoint 00:35:01
+[spatial_ft_v2] epoch 21 batch 1620/3125 | loss 0.0342 | 173 img/s | checkpoint 00:40:01
+[spatial_ft_v2] epoch 21 batch 2481/3125 | loss 0.0346 | 176 img/s | checkpoint 00:45:02
+[spatial_ft_v2] epoch 21/50 | train loss 0.0349 | val loss 0.01903 (clean 0.00465 acc 0.9985, degraded 0.03341 acc 0.9882 AUC 0.9994) | 1147s | patience 3
+[spatial_ft_v2] done: {'best_epoch': 18, 'best_val_loss': 0.013886501197703183, 'epochs_run': 21, 'finished': '2026-11-03T00:49:08.422152'}

@@ -1,0 +1,46 @@
+{
+ "split": "val",
+ "sig": "77e21cc68c19",
+ "feature_code_hash": "369cfa92c5a260ea",
+ "matches_fp_v3_hash": true,
+ "n_samples": 7569,
+ "n_copies": 1,
+ "n_entries": 7569,
+ "n_shards": 4,
+ "shard_size": 2048,
+ "limit": null,
+ "batch_size": 64,
+ "library_versions": {
+  "python": "3.12.13",
+  "torch": "2.10.0+cu128",
+  "torchvision": "0.25.0+cu128",
+  "open_clip": "3.3.0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3"
+ }
+}
+0/4 shards already done; 4 to extract
+Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+[19:52:02] val shard 1/4 saved | 1/4 this run |  295.2 img/s | ETA  0.01 h | sha mismatches 0
+[19:52:05] val shard 2/4 saved | 2/4 this run |  379.0 img/s | ETA  0.00 h | sha mismatches 0
+[19:52:09] val shard 3/4 saved | 3/4 this run |  416.5 img/s | ETA  0.00 h | sha mismatches 0
+[19:52:14] val shard 4/4 saved | 4/4 this run |  418.8 img/s | ETA  0.00 h | sha mismatches 0
+{
+ "split": "val",
+ "sig": "77e21cc68c19",
+ "feature_code_hash": "369cfa92c5a260ea",
+ "matches_fp_v3_hash": true,
+ "n_samples": 7569,
+ "n_copies": 1,
+ "n_entries": 7569,
+ "n_shards": 4,
+ "shard_size": 2048,
+ "limit": null,
+ "batch_size": 64,
+ "seconds_this_run": 19.56248927116394
+}

@@ -1,0 +1,189 @@
+{
+  "best_epoch": 6,
+  "temperature": 1.0,
+  "temperature_unconstrained": 0.5928036570549011,
+  "nll_before": 0.014828461222350597,
+  "nll_after": 0.014828461222350597,
+  "threshold": 0.5,
+  "active_pillars": [
+    "spatial",
+    "frequency",
+    "color",
+    "physical",
+    "semantic"
+  ],
+  "run_tag": "full",
+  "report_population": {
+    "n_clean_val": 1600,
+    "note": "ALL clean validation samples are used (no subsetting)."
+  },
+  "clean_val": {
+    "accuracy": 0.996875,
+    "roc_auc": 0.9999859375,
+    "average_precision": 0.9999859899888957,
+    "precision": 0.9950186799501868,
+    "recall": 0.99875,
+    "f1": 0.9968808484092326,
+    "confusion_matrix": [
+      [
+        796,
+        4
+      ],
+      [
+        1,
+        799
+      ]
+    ]
+  },
+  "augmented_val_monitor": null,
+  "per_category_clean": {
+    "car": {
+      "accuracy": 0.9925,
+      "roc_auc": 0.9999,
+      "average_precision": 0.9999007438057239,
+      "precision": 0.9900497512437811,
+      "recall": 0.995,
+      "f1": 0.9925187032418953,
+      "confusion_matrix": [
+        [
+          198,
+          2
+        ],
+        [
+          1,
+          199
+        ]
+      ]
+    },
+    "cat": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          200,
+          0
+        ],
+        [
+          0,
+          200
+        ]
+      ]
+    },
+    "chair": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          200,
+          0
+        ],
+        [
+          0,
+          200
+        ]
+      ]
+    },
+    "horse": {
+      "accuracy": 0.995,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1": 0.9950248756218906,
+      "confusion_matrix": [
+        [
+          198,
+          2
+        ],
+        [
+          0,
+          200
+        ]
+      ]
+    }
+  },
+  "mean_fusion_weights": {
+    "spatial": 0.21893064677715302,
+    "frequency": 0.18488971889019012,
+    "color": 0.17863598465919495,
+    "physical": 0.19146844744682312,
+    "semantic": 0.22607523202896118
+  },
+  "leave_one_pillar_out": {
+    "real": {
+      "spatial": -0.20492301881313324,
+      "frequency": -0.1564776450395584,
+      "color": -0.10367076098918915,
+      "physical": 0.09308621287345886,
+      "semantic": -0.9339378476142883
+    },
+    "fake": {
+      "spatial": 0.28588154911994934,
+      "frequency": 0.2717167139053345,
+      "color": 0.15208126604557037,
+      "physical": -0.01733728125691414,
+      "semantic": 0.9959136843681335
+    }
+  },
+  "extraction_stats": {
+    "train": {
+      "n_shards": 24,
+      "n_entries": 48000,
+      "n_decode_fail": 0,
+      "n_nonfinite_rows_any": 0,
+      "n_kept": 48000,
+      "extract_seconds": 145.17630767822266,
+      "nonfinite_rows_by_pillar": {
+        "spatial": 0,
+        "frequency": 0,
+        "color": 0,
+        "physical": 0,
+        "semantic": 0
+      },
+      "nonfinite_values_by_pillar": {
+        "spatial": 0,
+        "frequency": 0,
+        "color": 0,
+        "physical": 0,
+        "semantic": 0
+      }
+    },
+    "val": {
+      "n_shards": 1,
+      "n_entries": 1600,
+      "n_decode_fail": 0,
+      "n_nonfinite_rows_any": 0,
+      "n_kept": 1600,
+      "extract_seconds": 4.879153490066528,
+      "nonfinite_rows_by_pillar": {
+        "spatial": 0,
+        "frequency": 0,
+        "color": 0,
+        "physical": 0,
+        "semantic": 0
+      },
+      "nonfinite_values_by_pillar": {
+        "spatial": 0,
+        "frequency": 0,
+        "color": 0,
+        "physical": 0,
+        "semantic": 0
+      }
+    }
+  },
+  "notes": [
+    "Validation is in-distribution (same ProGAN generator / categories); not zero-shot.",
+    "Physical pillar = image-derived physical-consistency cues, not PRNU/iPRNU.",
+    "Fusion weights are learned mixing weights, not causal attributions.",
+    "Temperature was fit on clean in-distribution validation data and clamped to T>=1; confidence on unseen generators is expected to be over-optimistic.",
+    "Threshold is fixed at 0.5 and must not be tuned on zero-shot data."
+  ]
+}

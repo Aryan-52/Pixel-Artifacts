@@ -1,0 +1,62 @@
+[2026-10-31 21:28:07] === Kaggle hand-off started ===
+[2026-10-31 21:28:07] kaggle datasets create -p D:\ARYAN\Projects\Major Project\Implementation\Backups\kaggle_upload\code
+[2026-10-31 21:28:16] Starting upload for file pixel-artifacts-code.zip
+Upload successful: pixel-artifacts-code.zip (52KB)
+Your private Dataset is being created. Please check progress at https://www.kaggle.com/datasets/aryandandekar/pixel-artifacts-code
+
+  0%|          | 0.00/51.5k [00:00<?, ?B/s]
+100%|â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆ| 51.5k/51.5k [00:01<00:00, 48.0kB/s]
+[2026-10-31 21:28:16] kaggle datasets status aryandandekar/pixel-artifacts-code
+[2026-10-31 21:28:17] ready
+[2026-10-31 21:28:17] kaggle datasets create -p D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\feature_store
+[2026-10-31 21:46:14] FAILED: can only concatenate str (not "NoneType") to str
+[2026-10-31 21:46:44] === Kaggle hand-off started ===
+[2026-10-31 21:46:44] kaggle datasets create -p D:\ARYAN\Projects\Major Project\Implementation\Backups\kaggle_upload\code
+[2026-10-31 21:46:46] Dataset creation error: The requested slug "pixel-artifacts-code" is already in use by a dataset. Please choose another slug.
+[2026-10-31 21:46:46] kaggle datasets status aryandandekar/pixel-artifacts-code
+[2026-10-31 21:46:47] ready
+[2026-10-31 21:46:47] kaggle datasets create -p D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\feature_store
+[2026-10-31 22:08:28] ██▍       | 11.0M/44.7M [00:02<00:04, 8.26MB/s]
+ 27%|██▋       | 11.9M/44.7M [00:02<00:04, 8.58MB/s]
+ 29%|██▉       | 13.0M/44.7M [00:03<00:03, 9.36MB/s]
+ 32%|███▏      | 14.2M/44.7M [00:03<00:03, 9.94MB/s]
+ 34%|███▍      | 15.2M/44.7M [00:03<00:02, 10.3MB/s]
+ 37%|███▋      | 16.3M/44.7M [00:03<00:02, 10.5MB/s]
+ 39%|███▉      | 17.4M/44.7M [00:03<00:02, 9.75MB/s]
+ 41%|████      | 18.3M/44.7M [00:03<00:03, 9.03MB/s]
+ 43%|████▎     | 19.2M/44.7M [00:03<00:03, 8.65MB/s]
+ 45%|████▍     | 20.1M/44.7M [00:03<00:03, 8.03MB/s]
+ 47%|████▋     | 20.9M/44.7M [00:03<00:03, 7.68MB/s]
+ 48%|████▊     | 21.6M/44.7M [00:04<00:03, 7.70MB/s]
+ 50%|█████     | 22.5M/44.7M [00:04<00:02, 7.92MB/s]
+ 52%|█████▏    | 23.3M/44.7M [00:04<00:02, 8.19MB/s]
+ 54%|█████▍    | 24.3M/44.7M [00:04<00:02, 8.84MB/s]
+ 57%|█████▋    | 25.4M/44.7M [00:04<00:02, 9.55MB/s]
+ 59%|█████▉    | 26.5M/44.7M [00:04<00:01, 10.2MB/s]
+ 62%|██████▏   | 27.5M/44.7M [00:04<00:01, 9.88MB/s]
+ 64%|██████▍   | 28.5M/44.7M [00:04<00:01, 9.57MB/s]
+ 66%|██████▌   | 29.5M/44.7M [00:04<00:01, 9.70MB/s]
+ 68%|██████▊   | 30.5M/44.7M [00:05<00:01, 10.1MB/s]
+ 71%|███████   | 31.5M/44.7M [00:05<00:01, 10.2MB/s]
+ 73%|███████▎  | 32.6M/44.7M [00:05<00:01, 10.6MB/s]
+ 75%|███████▌  | 33.7M/44.7M [00:05<00:01, 10.7MB/s]
+ 78%|███████▊  | 34.7M/44.7M [00:05<00:00, 10.7MB/s]
+ 80%|████████  | 35.8M/44.7M [00:05<00:00, 10.0MB/s]
+ 82%|████████▏ | 36.7M/44.7M [00:05<00:00, 10.0MB/s]
+ 85%|████████▍ | 37.8M/44.7M [00:05<00:00, 10.2MB/s]
+ 87%|████████▋ | 38.7M/44.7M [00:05<00:00, 9.82MB/s]
+ 89%|████████▉ | 39.7M/44.7M [00:06<00:00, 8.46MB/s]
+ 91%|█████████ | 40.6M/44.7M [00:06<00:00, 8.38MB/s]
+ 93%|█████████▎| 41.4M/44.7M [00:06<00:00, 8.20MB/s]
+ 95%|█████████▍| 42.2M/44.7M [00:06<00:00, 8.37MB/s]
+ 97%|█████████▋| 43.2M/44.7M [00:06<00:00, 8.94MB/s]
+ 99%|█████████▉| 44.2M/44.7M [00:06<00:00, 9.28MB/s]
+100%|██████████| 44.7M/44.7M [00:07<00:00, 6.39MB/s]
+
+  0%|          | 0.00/7.52k [00:00<?, ?B/s]
+100%|██████████| 7.52k/7.52k [00:01<00:00, 7.20kB/s]
+[2026-10-31 22:08:28] kaggle datasets status aryandandekar/pixel-artifacts-feature-store
+[2026-10-31 22:08:30] ready
+[2026-10-31 22:08:30] kaggle kernels push -p D:\ARYAN\Projects\Major Project\Implementation\Backups\kaggle_upload\kernel --accelerator NvidiaTeslaT4
+[2026-10-31 22:08:33] Kernel version 1 successfully pushed.  Please check progress at https://www.kaggle.com/code/aryandandekar/pixel-artifacts-fp-v4-heads
+[2026-10-31 22:08:33] === notebook pushed and running; check kaggle.com/code ===

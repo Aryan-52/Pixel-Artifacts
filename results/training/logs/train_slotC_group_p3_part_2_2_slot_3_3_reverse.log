@@ -1,0 +1,27 @@
+3 runs: ['frequency+color+semantic', 'spatial+frequency+physical', 'frequency+physical']
+[frequency+color+semantic] 1,440,060 rows | 22,501 batches/epoch | dims {'frequency': 408, 'color': 133, 'semantic': 512}
+[frequency+color+semantic] epoch 1 batch 20992/22501 | loss 0.2166 | checkpoint 14:32:25
+[frequency+color+semantic] epoch 1/50 | val loss 0.02648 | acc 0.9927 | AUC 0.9997 | 330s | patience 0 *best*
+[frequency+color+semantic] epoch 2/50 | val loss 0.02869 | acc 0.9921 | AUC 0.9998 | 269s | patience 1
+[frequency+color+semantic] epoch 3/50 | val loss 0.02547 | acc 0.9948 | AUC 0.9999 | 269s | patience 0 *best*
+[frequency+color+semantic] epoch 4/50 | val loss 0.02114 | acc 0.9945 | AUC 0.9998 | 279s | patience 0 *best*
+[frequency+color+semantic] epoch 5/50 | val loss 0.02199 | acc 0.9952 | AUC 0.9999 | 291s | patience 1
+[frequency+color+semantic] epoch 6/50 | val loss 0.02304 | acc 0.9960 | AUC 0.9999 | 292s | patience 2
+[frequency+color+semantic] epoch 7 batch 22016/22501 | loss 0.1749 | checkpoint 15:01:12
+[frequency+color+semantic] epoch 7/50 | val loss 0.02248 | acc 0.9954 | AUC 0.9999 | 310s | patience 3
+[frequency+color+semantic] epoch 8 batch 22501/22501 | loss 0.1730 | checkpoint 15:06:26
+[frequency+color+semantic] epoch 8/50 | val loss 0.02211 | acc 0.9952 | AUC 0.9999 | 306s | patience 4
+[frequency+color+semantic] epoch 9/50 | val loss 0.02064 | acc 0.9951 | AUC 0.9999 | 293s | patience 0 *best*
+[frequency+color+semantic] epoch 10/50 | val loss 0.01664 | acc 0.9964 | AUC 0.9999 | 288s | patience 0 *best*
+[frequency+color+semantic] epoch 11/50 | val loss 0.02033 | acc 0.9952 | AUC 0.9999 | 283s | patience 1
+[frequency+color+semantic] epoch 12/50 | val loss 0.01886 | acc 0.9964 | AUC 0.9999 | 281s | patience 2
+[frequency+color+semantic] epoch 13/50 | val loss 0.02004 | acc 0.9964 | AUC 0.9998 | 283s | patience 3
+[frequency+color+semantic] epoch 14/50 | val loss 0.01770 | acc 0.9970 | AUC 0.9998 | 286s | patience 4
+[frequency+color+semantic] epoch 15/50 | val loss 0.02033 | acc 0.9952 | AUC 0.9999 | 284s | patience 5
+[frequency+color+semantic] epoch 16/50 | val loss 0.02001 | acc 0.9950 | AUC 1.0000 | 284s | patience 6
+[frequency+color+semantic] epoch 17/50 | val loss 0.01942 | acc 0.9956 | AUC 0.9999 | 278s | patience 7
+[frequency+color+semantic] epoch 18/50 | val loss 0.01987 | acc 0.9964 | AUC 0.9999 | 276s | patience 8
+[frequency+color+semantic] TEST acc 0.8047 | AUC 0.8971 | real 0.958 fake 0.652
+[spatial+frequency+physical] already done
+[frequency+physical] already done
+All requested runs done.
