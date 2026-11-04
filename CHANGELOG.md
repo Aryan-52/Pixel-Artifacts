@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-11-04 — Published to GitHub; t-SNE analysis
+
+### Added
+- Repository published at https://github.com/Aryan-52/Pixel-Artifacts, on top of its existing history. Includes:
+  - the code, docs, result reports and logs;
+  - the packaged model weights (`models/**`, each under 30 MB, with SHA-256 checksums).
+- Kept out of the published repository (`.gitignore`):
+  - `results/app_jobs/` (images uploaded to the app);
+  - `frontend/node_modules/` and `frontend/dist/`;
+  - `docs/reports/` (internal team comparison).
+- `README.md` rewritten for the actual project; `requirements.txt` added (the versions all results were produced with).
+- `scripts/tsne_embeddings.py`: t-SNE of real vs. AI test images (ProGAN, StyleGAN, IMLE; 600 + 600 each, seed 42).
+  - It compares two feature spaces: the frozen CLIP pillar, and fp-v4.1's fused embedding.
+  - It is a visualisation only: nothing is trained or tuned.
+  - Output: `results/figures/tsne_progan_stylegan_imle.npz`. The plot is drawn by the blackbook figure script.
+
 ## 2026-11-04 — Results without WhichFaceIsReal (guide's instruction); full-scan eval memory fix
 
 ### Added
