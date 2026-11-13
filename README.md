@@ -1,5 +1,7 @@
 # Pixel-Artifacts
 
+![Pixel-Artifacts landing page](docs/images/landing.png)
+
 Detects whether an image is a real photograph or AI-generated. The detector looks at every image through five independent **pillars** and combines them with a learned per-image gate. It ships as a web application that explains each verdict.
 
 MCA Major Project, Sardar Patel Institute of Technology, Mumbai.
