@@ -1,5 +1,34 @@
 # CHANGELOG
 
+## 2026-11-05 — fp-v4.3 training (end-to-end spatial pillar, D-23)
+
+### Added
+- `src/training/e2e_v43.py`, `scripts/train_e2e_v43.py`: fp-v4.3 trains the EfficientNet-B0 end to end inside the five-pillar model.
+  - Each image gets fresh degradation every epoch.
+  - The other four pillars come from the fp-v4.1 store.
+  - Batch 64, at most 50 epochs, early stopping on clean + degraded ProGAN validation.
+  - Warm start from fp-v4.1.
+  - The test set is scored once, in `finalize()`.
+  - Resumable; the log is at `results/training/logs/train_e2e_v43.log`.
+- `scripts/package_model.py`: a `fp-v4.3` entry, packaged only if it beats fp-v4.1.
+- Smoke run (`--smoke`, 2 × 2,048 images, 512 validation images) passed in `results/training/e2e_v43_smoke/`.
+  - The fp-v4.1 starting point scored clean-val BCE 0.006 and degraded-val BCE 0.035 on that subset.
+- `docs/reports/sahil_v3_vs_fp41_comparison.md` (internal, not published): the evidence behind D-23.
+
+### Result (test scored once; `results/training/e2e_v43/test_report.json`)
+- Early stopping stopped after epoch 5 and selected epoch 2.
+  - Its selection loss was 0.0294, against about 0.025 for the fp-v4.1 starting point on the same two validation sets.
+  - Epochs took 613–672 s each, at about 337 img/s.
+  - The fitted temperature was clamped to 1.0.
+- **fp-v4.3: accuracy 79.36%, AUC 0.930, AP 0.942, real kept real 98.6%, AI caught 60.1%, mean generator accuracy 77.7%.**
+  - fp-v4.1 scores 83.15%, 0.943, 0.952, 97.0%, 69.3% and 79.9%.
+- Gains: BigGAN +4.0, GauGAN +3.2, StyleGAN +0.6.
+- Losses: CRN −16.3 (AI caught 69.7 → 31.3%), IMLE −11.3, WhichFaceIsReal −3.5, CycleGAN −2.6.
+- **Not adopted; fp-v4.1 stays the app and paper model.** The ProGAN validation criterion already ranked fp-v4.1 ahead before the test was scored.
+
+### Note
+- The smoke run's encoder load used fp-v3's Kaggle default cache and created `D:\kaggle\working\...`, which holds the official EfficientNet-B0 and CLIP ViT-B/32 weights. That path is now set from `configs/paths.toml`. The stray folder (6 files, 598 MB, all created by that smoke run) is to be deleted by the user; the automated removal was blocked by a safety check on top-level drive folders.
+
 ## 2026-11-04 — Published to GitHub; t-SNE analysis
 
 ### Added

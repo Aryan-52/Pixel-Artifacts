@@ -36,6 +36,14 @@ SOURCES = {
         "head_history.csv": RUNS / "runs_v42" / "full" / "history.csv",
         "spatial_history.csv": RUNS / "spatial_ft_v2" / "history.csv",
     },
+    "fp-v4.3": {                                   # end-to-end spatial pillar (D-23)
+        "head.pth": RUNS / "e2e_v43" / "best_model.pth",
+        "spatial_effnet.pth": RUNS / "e2e_v43" / "best_effnet.pth",
+        "test_report.json": RUNS / "e2e_v43" / "test_report.json",
+        "val_report.json": RUNS / "e2e_v43" / "val_report.json",
+        "test_predictions.npz": RUNS / "e2e_v43" / "test_predictions.npz",
+        "head_history.csv": RUNS / "e2e_v43" / "history.csv",
+    },
 }
 
 

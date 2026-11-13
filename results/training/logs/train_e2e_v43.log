@@ -1,0 +1,40 @@
+Loading EfficientNet-B0 (torchvision IMAGENET1K_V1)...
+Loading OpenCLIP ViT-B-32 (openai weights)...
+Batch-consistency check passed (handcrafted features are per-image).
+Feature dimensions: {'frequency': 408, 'color': 133, 'physical': 89, 'spatial': 1952, 'semantic': 512}
+degraded validation cache: (7569, 3094) -> D:\ARYAN\Projects\Major Project\Implementation\Pixel-Artifacts\results\training\e2e_v43\val_degraded_X.npy
+[fp-v4.3] start (fp-v4.1 weights): clean val BCE 0.00666, degraded val BCE 0.04356
+{
+ "model_version": "fp-v4.3",
+ "init_effnet": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\spatial_ft\\best.pth",
+ "init_head": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\runs_ft\\full\\best_model.pth",
+ "store": "D:\\ARYAN\\Projects\\Major Project\\Implementation\\Pixel-Artifacts\\results\\training\\feature_store_ft",
+ "store_hash": "369cfa92c5a260ea+spatial_ft:1401e1c80b37",
+ "batch_size": 64,
+ "max_epochs": 50,
+ "epoch_samples": 200000,
+ "lr": 0.0001,
+ "weight_decay": 0.01,
+ "patience": 3,
+ "seed": 42,
+ "n_train_images": 720030,
+ "n_val": 7569,
+ "pillar_dropout": 0.15,
+ "smoke": false,
+ "selection": "mean of clean and degraded ProGAN-validation BCE (full model)"
+}
+[fp-v4.3] epoch 1 batch 1418/3125 | loss 0.0938 | 301 img/s | checkpoint 04:13:00
+[fp-v4.3] epoch 1 batch 2895/3125 | loss 0.0918 | 307 img/s | checkpoint 04:18:02
+[fp-v4.3] epoch 1/50 | train loss 0.0920 | val loss 0.03758 (clean 0.01128 acc 0.9996; degraded 0.06387 acc 0.9775 AUC 0.9984) | 672s | patience 0 *best*
+[fp-v4.3] epoch 2 batch 1531/3125 | loss 0.0888 | 326 img/s | checkpoint 04:24:12
+[fp-v4.3] epoch 2 batch 3065/3125 | loss 0.0882 | 326 img/s | checkpoint 04:29:13
+[fp-v4.3] epoch 2/50 | train loss 0.0881 | val loss 0.02935 (clean 0.00967 acc 0.9993; degraded 0.04902 acc 0.9834 AUC 0.9990) | 635s | patience 0 *best*
+[fp-v4.3] epoch 3 batch 1523/3125 | loss 0.0869 | 324 img/s | checkpoint 04:34:48
+[fp-v4.3] epoch 3 batch 3051/3125 | loss 0.0862 | 325 img/s | checkpoint 04:39:49
+[fp-v4.3] epoch 3/50 | train loss 0.0861 | val loss 0.03128 (clean 0.00956 acc 1.0000; degraded 0.05300 acc 0.9834 AUC 0.9987) | 637s | patience 1
+[fp-v4.3] epoch 4 batch 1477/3125 | loss 0.0849 | 315 img/s | checkpoint 04:45:26
+[fp-v4.3] epoch 4 batch 2975/3125 | loss 0.0849 | 317 img/s | checkpoint 04:50:27
+[fp-v4.3] epoch 4/50 | train loss 0.0851 | val loss 0.03379 (clean 0.01018 acc 0.9999; degraded 0.05740 acc 0.9807 AUC 0.9986) | 653s | patience 2
+[fp-v4.3] epoch 5 batch 1584/3125 | loss 0.0845 | 337 img/s | checkpoint 04:56:20
+[fp-v4.3] epoch 5/50 | train loss 0.0843 | val loss 0.03038 (clean 0.00971 acc 0.9996; degraded 0.05104 acc 0.9834 AUC 0.9988) | 613s | patience 3
+[fp-v4.3] TEST acc 0.7936 | AUC 0.9300 | AP 0.9424 | real 0.986 fake 0.601 | mean gen acc 0.7771

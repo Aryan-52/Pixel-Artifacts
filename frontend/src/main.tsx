@@ -13,6 +13,7 @@ import Methodology from "./pages/research/Methodology";
 import Results from "./pages/research/Results";
 import Literature from "./pages/research/Literature";
 import Publications from "./pages/research/Publications";
+import Hybrid from "./pages/research/Hybrid";
 import "./styles/global.css";
 import "./styles/app.css";
 
@@ -44,6 +45,7 @@ const router = createBrowserRouter([
           { index: true, element: <Navigate to="methodology" replace /> },
           { path: "methodology", element: <Methodology /> },
           { path: "results", element: <Results /> },
+          { path: "hybrid", element: <Hybrid /> },
           { path: "literature", element: <Literature /> },
           { path: "publications", element: <Publications /> },
         ],

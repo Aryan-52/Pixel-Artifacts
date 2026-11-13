@@ -12,6 +12,7 @@ export function BrandMark() {
 const RESEARCH = [
   { to: "/research/methodology", label: "Methodology", hint: "Five lenses, data and training protocol" },
   { to: "/research/results", label: "Results", hint: "Benchmarks, per-GAN, versions, ablation" },
+  { to: "/research/hybrid", label: "Hybrid model", hint: "Four-branch gated hybrid and its results" },
   { to: "/research/literature", label: "Literature", hint: "The papers this work builds on" },
   { to: "/research/publications", label: "Publications & roadmap", hint: "Blackbook, paper, gaps, future scope" },
 ];

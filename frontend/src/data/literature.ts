@@ -1,5 +1,5 @@
 // The 18 most relevant of the 36 reviewed papers, grouped by the lens they relate to.
-// Venues and links are taken from the PDFs in Research Papers/papers (DOI / arXiv id on the paper).
+// Venues and links are taken from the PDFs in Reference Papers/papers (DOI / arXiv id on the paper).
 
 export type Tag = "Foundation" | "Texture" | "Frequency" | "Colour" | "Light & noise" | "Semantic" | "Fusion" | "Explainability" | "Generalisation" | "Survey";
 

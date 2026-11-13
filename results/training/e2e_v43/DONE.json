@@ -1,0 +1,8 @@
+{
+ "model_version": "fp-v4.3",
+ "best_epoch": 2,
+ "test_acc": 0.7936432374984778,
+ "test_auc": 0.9299808414618295,
+ "effnet_sha256": "0516027f274745f49ed93af6c1fe36fed1d801683d46a09a8c0d678fc72c3c45",
+ "finished": "2026-11-05T05:05:44.721605"
+}

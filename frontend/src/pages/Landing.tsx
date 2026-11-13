@@ -4,6 +4,7 @@ import { api, type ModelInfo } from "../lib/api";
 import { genName, int, pct } from "../lib/format";
 import { CountUp, Reveal } from "../components/Reveal";
 import { LensArt, LENS_COPY } from "../components/LensArt";
+import { branches as hybridBranches, headline as hybrid } from "../data/sahilHybrid";
 
 const PixelGlobe = lazy(() => import("../components/PixelGlobe"));
 
@@ -234,6 +235,28 @@ export default function Landing() {
                   <b>{pct(s.accuracy, 0)}</b>
                 </div>
               ))}
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap proof-grid">
+          <Reveal className="stack" style={{ ["--gap" as string]: "18px" }}>
+            <span className="eyebrow">Gated hybrid model</span>
+            <h2>Four branches, one learned gate.</h2>
+            <p className="lede">An end-to-end hybrid that fuses a fine-tuned EfficientNet-B0, physics cues, frequency statistics and frozen
+              CLIP ViT-L/14 features, trained on ProGAN and evaluated on {int(hybrid.images)} images from {hybrid.generators} generators.</p>
+            <Link to="/research/hybrid" className="link-btn">See the hybrid model's results →</Link>
+          </Reveal>
+          <div className="stack" style={{ ["--gap" as string]: "28px" }}>
+            <div className="grid-3">
+              <Reveal className="stat"><b><CountUp value={hybrid.accuracy * 100} decimals={1} suffix="%" /></b><span>accuracy</span></Reveal>
+              <Reveal delay={0.08} className="stat"><b><CountUp value={hybrid.auc} decimals={3} /></b><span>ROC-AUC</span></Reveal>
+              <Reveal delay={0.16} className="stat"><b><CountUp value={hybrid.meanGenAcc * 100} decimals={1} suffix="%" /></b><span>mean over {hybrid.generators} generators</span></Reveal>
+            </div>
+            <Reveal className="pipe-fan">
+              {hybridBranches.map((x) => <div key={x.name} className="pipe-lens"><b>{x.name}</b><span>{x.looks}</span></div>)}
             </Reveal>
           </div>
         </div>

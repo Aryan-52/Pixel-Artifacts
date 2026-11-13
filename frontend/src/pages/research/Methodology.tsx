@@ -1,5 +1,6 @@
 import { LensArt, LENS_COPY } from "../../components/LensArt";
 import { LineChart } from "../../components/Charts";
+import { Pipeline } from "../../components/Pipeline";
 import { Reveal } from "../../components/Reveal";
 import { int } from "../../lib/format";
 import { useResearch } from "./ResearchLayout";
@@ -13,21 +14,14 @@ const HOW: Record<string, string> = {
   semantic: "OpenCLIP ViT-B/32 (OpenAI weights) image embedding, L2-normalised. Frozen.",
 };
 
-function Pipeline() {
+function ModelPipeline() {
   return (
-    <div className="pipeline">
-      <div className="pipe-node"><b>Image</b><span>any size</span></div>
-      <div className="pipe-arrow" />
-      <div className="pipe-node"><b>224 px windows</b><span>cover the whole image, no resizing</span></div>
-      <div className="pipe-arrow" />
-      <div className="pipe-fan">
-        {LENS_COPY.map((l) => <div key={l.key} className="pipe-lens"><b>{l.name}</b><span>{DIMS[l.key]} features</span></div>)}
-      </div>
-      <div className="pipe-arrow" />
-      <div className="pipe-node accent"><b>Projection + gate</b><span>256-d per lens, softmax weights</span></div>
-      <div className="pipe-arrow" />
-      <div className="pipe-node dark-node"><b>Verdict</b><span>mean p(AI) over windows, threshold 0.5</span></div>
-    </div>
+    <Pipeline
+      input={{ title: "Image", note: "any size" }}
+      window={{ title: "224 px windows", note: "cover the whole image, no resizing" }}
+      branches={LENS_COPY.map((l) => ({ name: l.name, dims: `${DIMS[l.key]} features` }))}
+      fusion={{ title: "Projection + gate", note: "256-d per lens, softmax weights" }}
+      verdict={{ title: "Verdict", note: "mean p(AI) over windows, threshold 0.5" }} />
   );
 }
 
@@ -39,7 +33,7 @@ export default function Methodology() {
       <Reveal className="stack" style={{ ["--gap" as string]: "20px" }}>
         <h2>The pipeline</h2>
         <p className="lede">Each image goes through the same steps used in training, so the app's scores match the evaluated model exactly (checked by an automated parity test).</p>
-        <Pipeline />
+        <ModelPipeline />
       </Reveal>
 
       <div className="stack" style={{ ["--gap" as string]: "20px" }}>
